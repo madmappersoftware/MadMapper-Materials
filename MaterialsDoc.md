@@ -427,6 +427,16 @@ Note that if "REQUIRES_LAST_FRAME" is set, MadMapper will automatically render t
 	ivec2 targetPixelPos = ivec2(texCoord * RENDERSIZE);
 	vec4 lastFrameInfo = texelFetch(mm_LastFrame,ivec2(0,RENDERSIZE.y-1),0);
 
+## Render Settings
+
+Since MadMapper 5.2, a Material can request MadMapper to not clamp material colors (useful when rendering to a floating point target).
+
+	"RENDER_SETTINGS": {
+		"CLAMP_MATERIAL_OUTPUT": false
+	},
+
+If CLAMP_MATERIAL_OUTPUT is not explicitely disabled, MadMapper clamps RGBA values in range 0-1.
+
 ## Waveform and spectrum textures
 
 We added some parameters compared to ISF spec. In the ISF spec, an "INPUT" of type "audioFFT" will be a texture with the audio spectrum. An "INPUT" with type "audio" will contain the waveform.
