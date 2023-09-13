@@ -133,6 +133,12 @@ The path in the include statement must be valid relatively to the file containin
 	#include "MadNoise.glsl"
 	#include "MadSDF.glsl"
 
+## Additional Variables:
+
+In addition to the variables defined in ISF specification (TIME, TIMEDELTA, FRAMEINDEX, DATE, isf_FragNormCoord, RENDERSIZE), MadMapper adds:
+
+- CLOCK_TIME: the TIME variable is altered by MadMapper"Engine Speed", while CLOCK_TIME is based on computer clock and will evolve whatever the engine speed is.
+
 ## INPUTS:
 
 MadMapper extends ISF with a few input types:
