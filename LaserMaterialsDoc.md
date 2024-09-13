@@ -210,4 +210,4 @@ To access data from previous frame, you should write:
 
 	vec2 lastFramePos = texelFetch(mm_LastFrameData,ivec2(pointNumber,0),0).rg;
 	vec4 lastFrameColor = texelFetch(mm_LastFrameData,ivec2(pointNumber,1),0);
-	vec4 lastFrameUserData = texelFetch(mm_LastFrameData,ivec2(pointNumber,2,0);
+	vec4 lastFrameUserData = texelFetch(mm_LastFrameData,ivec2(pointNumber,2),0);
