@@ -1,9 +1,10 @@
 /*{
-    "CREDIT": "frz / 1024 architecture",
-    "DESCRIPTION": "Simple vector moving lines",
-    "TAGS": "laser",
-    "VSN": "1.2",
-    "INPUTS": [
+	"RESOURCE_TYPE": "Laser Material for MadMapper",
+	"CREDIT": "frz / 1024 architecture",
+	"DESCRIPTION": "Simple vector moving lines",
+	"TAGS": "laser",
+	"VSN": "1.2",
+	"INPUTS": [
 		{"LABEL": "Global/Lines", "NAME": "mat_line_count", "TYPE": "int", "MIN": 1, "MAX": 30, "DEFAULT": 7 },
 		{"LABEL": "Global/Precision", "NAME": "mat_line_definition", "TYPE": "int", "MIN": 2, "MAX": 300, "DEFAULT": 10 },
 		
@@ -17,21 +18,22 @@
 		{ "LABEL": "Color/Bottom", "NAME": "mat_leftColor", "TYPE": "color", "DEFAULT": [ 1.0, 0.0, 0.0, 1.0 ] ,"FLAGS" :"no_alpha"},
 		{ "LABEL": "Color/Top", "NAME": "mat_rightColor", "TYPE": "color", "DEFAULT": [ 1.0, 1.0, 1.0, 1.0 ] ,"FLAGS" :"no_alpha"},
 
-    ],
+	],
 
-    "GENERATORS": [
-        {"NAME": "mat_time", "TYPE": "time_base", "PARAMS": {"speed": "mat_speed","speed_curve": 2,"link_speed_to_global_bpm":true}},
-        {"NAME": "mat_ntime", "TYPE": "time_base", "PARAMS": {"speed": "mat_nspeed","speed_curve": 2,"link_speed_to_global_bpm":true}},
+	"GENERATORS": [
+		{"NAME": "mat_time", "TYPE": "time_base", "PARAMS": {"speed": "mat_speed","speed_curve": 2,"link_speed_to_global_bpm":true}},
+		{"NAME": "mat_ntime", "TYPE": "time_base", "PARAMS": {"speed": "mat_nspeed","speed_curve": 2,"link_speed_to_global_bpm":true}},
 		{"NAME": "mat_instance_count", "TYPE": "multiplier", "PARAMS": {"value1": "mat_line_definition", "value2": "mat_line_count"}},
-    ],
-    "RENDER_SETTINGS": {
-       "POINT_COUNT": "mat_instance_count",
-       "MAX_SPEED": 4,
-       "ANGLE_OPTIMIZATION": false,
-       "PRESERVE_ORDER": true,
-       "SKIP_BLACK": false
-    }
+	],
+	"RENDER_SETTINGS": {
+	   "POINT_COUNT": "mat_instance_count",
+	   "MAX_SPEED": 4,
+	   "ANGLE_OPTIMIZATION": false,
+	   "PRESERVE_ORDER": true,
+	   "SKIP_BLACK": false
+	}
 }*/
+
 #include "MadNoise.glsl"
 
 const float pi = 3.14159265359;

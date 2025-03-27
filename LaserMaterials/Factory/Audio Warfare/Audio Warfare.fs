@@ -1,9 +1,10 @@
 /*{
-    "CREDIT": "frz / 1024 architecture",
-    "DESCRIPTION": "Audio Reactive laser point array",
-    "TAGS": "laser",
-    "VSN": "1.4",
-    "INPUTS": [
+	"RESOURCE_TYPE": "Laser Material for MadMapper",
+	"CREDIT": "frz / 1024 architecture",
+	"DESCRIPTION": "Audio Reactive laser point array",
+	"TAGS": "laser",
+	"VSN": "1.4",
+	"INPUTS": [
 		{"LABEL": "Global/X", "NAME": "mat_x", "TYPE": "int", "MIN": 1, "MAX": 4, "DEFAULT": 2 },
 		{"LABEL": "Global/Y", "NAME": "mat_y", "TYPE": "int", "MIN": 1, "MAX": 4, "DEFAULT": 2 },
 
@@ -18,25 +19,27 @@
 		{ "LABEL": "Color/Bottom", "NAME": "mat_leftColor", "TYPE": "color", "DEFAULT": [ 1.0, 0.0, 0.0, 1.0 ] ,"FLAGS" :"no_alpha"},
 		{ "LABEL": "Color/Top", "NAME": "mat_rightColor", "TYPE": "color", "DEFAULT": [ 1.0, 1.0, 1.0, 1.0 ] ,"FLAGS" :"no_alpha"},
 
-        {
-            "NAME": "spectrum",
-            "TYPE": "audioFFT",
-            "SIZE": 12,
-            "ATTACK": 0.05,
-            "DECAY": 0.0,
-            "RELEASE": 0.1
-        },
+		{
+			"NAME": "spectrum",
+			"TYPE": "audioFFT",
+			"SIZE": 12,
+			"ATTACK": 0.05,
+			"DECAY": 0.0,
+			"RELEASE": 0.1
+		},
 
-    ],
+	],
 
-    "GENERATORS": [
-        {"NAME": "mat_time", "TYPE": "time_base", "PARAMS": {"speed": "mat_speed","speed_curve": 2,"link_speed_to_global_bpm":true}},
-{"NAME": "mat_instance_count", "TYPE": "multiplier", "PARAMS": {"value1": "mat_x", "value2": "mat_y", "value3":2}},
-    ],
-    "RENDER_SETTINGS": {
-       "POINT_COUNT": "mat_instance_count"
-    }
+	"GENERATORS": [
+		{"NAME": "mat_time", "TYPE": "time_base", "PARAMS": {"speed": "mat_speed","speed_curve": 2,"link_speed_to_global_bpm":true}},
+		{"NAME": "mat_instance_count", "TYPE": "multiplier", "PARAMS": {"value1": "mat_x", "value2": "mat_y", "value3":2}},
+	],
+
+	"RENDER_SETTINGS": {
+	   "POINT_COUNT": "mat_instance_count"
+	}
 }*/
+
 #include "MadNoise.glsl"
 
 mat2 rot(float a)
@@ -93,11 +96,6 @@ void laserMaterialFunc(int pointNumber, int pointCount, out vec2 pos, out vec4 c
 	float pi = 6.34;
 	vec2 pos_circle = normalize(pos.xy)*mat_scale;
 	pos = mix(pos,pos_circle,mat_circle);
-
-	
-
-
-////////////
 
 	vec3 col = mix(mat_leftColor.rgb,mat_rightColor.rgb,vec3(fract(normalizedPos)));
 	float bright = fract(normalizedPos*8);

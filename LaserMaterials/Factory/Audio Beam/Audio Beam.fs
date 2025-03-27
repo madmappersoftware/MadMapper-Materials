@@ -1,36 +1,37 @@
 /*{
-    "CREDIT": "frz / 1024 architecture",
-    "DESCRIPTION": "Audio Reactive Beamish thing",
-    "TAGS": "atmospheric",
-    "VSN": "1.0",
-    "INPUTS": [ 
-        {"LABEL": "Speed", "NAME": "mat_speed", "TYPE": "float", "MIN": 0.0, "MAX": 20.0, "DEFAULT": 1.0 }, 
+	"RESOURCE_TYPE": "Laser Material for MadMapper",
+	"CREDIT": "frz / 1024 architecture",
+	"DESCRIPTION": "Audio Reactive Beamish thing",
+	"TAGS": "atmospheric",
+	"VSN": "1.0",
+	"INPUTS": [ 
+		{"LABEL": "Speed", "NAME": "mat_speed", "TYPE": "float", "MIN": 0.0, "MAX": 20.0, "DEFAULT": 1.0 }, 
 		{"LABEL": "Rotation", "NAME": "mat_rot", "TYPE": "float", "MIN": 0.0, "MAX": 180.0, "DEFAULT": 0.0 }, 
-        {"LABEL": "Precision", "NAME": "mat_precision", "TYPE": "int", "MIN": 8, "MAX": 80, "DEFAULT": 18 }, 
+		{"LABEL": "Precision", "NAME": "mat_precision", "TYPE": "int", "MIN": 8, "MAX": 80, "DEFAULT": 18 }, 
 		{"LABEL": "Wobble", "NAME": "mat_wobble", "TYPE": "float", "MIN": 0.0, "MAX": 2.0, "DEFAULT": 1.0 }, 
 		{"LABEL": "Audio", "NAME": "mat_audio", "TYPE": "float", "MIN": 0.0, "MAX": 2.0, "DEFAULT": 1.0 }, 
-        {"LABEL": "Freq. Spread", "NAME": "mat_freq", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 0. }, 
+		{"LABEL": "Freq. Spread", "NAME": "mat_freq", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 0. }, 
 
 		{ "LABEL": "Color/Bottom", "NAME": "mat_leftColor", "TYPE": "color", "DEFAULT": [ 1.0, 0.0, 0.0, 1.0 ] ,"FLAGS" :"no_alpha"},
 		{ "LABEL": "Color/Top", "NAME": "mat_rightColor", "TYPE": "color", "DEFAULT": [ 1.0, 1.0, 1.0, 1.0 ] ,"FLAGS" :"no_alpha"},
 
-        {
-            "NAME": "spectrum",
-            "TYPE": "audioFFT",
-            "SIZE": 49,
-            "ATTACK": 0.3,
-            "DECAY": 0.0,
-            "RELEASE": 0.2
-        },
-    ],
-    "GENERATORS": [
-        {"NAME": "mat_time", "TYPE": "time_base", "PARAMS": {"speed": "mat_speed"} },
-    ],
-    "RENDER_SETTINGS": {
-       "POINT_COUNT": "mat_precision",
-       "PRESERVE_ORDER": true,
-       "ENABLE_FRAME_BLENDING": true
-    }
+		{
+			"NAME": "spectrum",
+			"TYPE": "audioFFT",
+			"SIZE": 49,
+			"ATTACK": 0.3,
+			"DECAY": 0.0,
+			"RELEASE": 0.2
+		},
+	],
+	"GENERATORS": [
+		{"NAME": "mat_time", "TYPE": "time_base", "PARAMS": {"speed": "mat_speed"} },
+	],
+	"RENDER_SETTINGS": {
+	   "POINT_COUNT": "mat_precision",
+	   "PRESERVE_ORDER": true,
+	   "ENABLE_FRAME_BLENDING": true
+	}
 }*/
 
 #include "MadCommon.glsl"
@@ -43,11 +44,11 @@ mat2 rot(float a)
 
 void laserMaterialFunc(int pointNumber, int pointCount, out vec2 pos, out vec4 color, out int shapeNumber, out vec4 userData)
 {
-    float t = mat_time;
-    float indexNorm = float(pointNumber)/(pointCount-1);
+	float t = mat_time;
+	float indexNorm = float(pointNumber)/(pointCount-1);
 
-    // lissajous
-    pos = vec2(indexNorm*0.01);
+	// lissajous
+	pos = vec2(indexNorm*0.01);
 
 	vec3 n = dFlowNoise(vec2(mat_time),0.34);
 	pos += n.yz*0.1*mat_wobble;
@@ -62,6 +63,6 @@ void laserMaterialFunc(int pointNumber, int pointCount, out vec2 pos, out vec4 c
 	pos.xy *= rot(mat_rot*3.1459/180);
 	if(pointNumber >= 4 && pointNumber <= 80) pos.y += audio.y*k*1.;
 	
-    color = vec4(mix(mat_leftColor.rgb,mat_rightColor.rgb,indexNorm),1.);
-    shapeNumber = int(floor(k*3.));
+	color = vec4(mix(mat_leftColor.rgb,mat_rightColor.rgb,indexNorm),1.);
+	shapeNumber = int(floor(k*3.));
 }

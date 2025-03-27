@@ -13,8 +13,9 @@
         { "LABEL": "Center X", "NAME": "posx", "TYPE": "float", "MIN" : 0.0, "MAX" : 1.0, "DEFAULT": 0.5 },
         { "LABEL": "Center Y", "NAME": "posy", "TYPE": "float", "MIN" : 0.0, "MAX" : 1.0, "DEFAULT": 0.5 },
         { "LABEL": "Color/Front Color", "NAME": "foregroundColor", "TYPE": "color", "DEFAULT": [ 1.0, 1.0, 1.0, 1.0 ] },
+        { "LABEL": "Color/Back Color", "NAME": "backgroundColor", "TYPE": "color", "DEFAULT": [ 0.0, 0.0, 0.0, 1.0 ] },
         { "LABEL": "Color/Brightness", "NAME": "brightness", "TYPE": "float", "MIN" : -1.0, "MAX" : 1.0, "DEFAULT": 0.0 },
-        { "LABEL": "Color/Contrast", "NAME": "contrast", "TYPE": "float", "MIN" : 0.0, "MAX" : 5.0, "DEFAULT": 1.0 }
+        { "LABEL": "Color/Contrast", "NAME": "contrast", "TYPE": "float", "MIN" : 1.0, "MAX" : 5.0, "DEFAULT": 1.0 }
     ],
     "GENERATORS": [
         {
@@ -57,14 +58,14 @@ vec4 materialColorForPixel(vec2 texCoord)
 {
     if (size==0) return vec4(0,0,0,1);
 
-    vec3 color = foregroundColor.rgb * clamp(computeLuma(texCoord-vec2(posx,posy)),0,1);
-
-     // Apply contrast
-    color = mix(vec3(0.5), color, contrast);
+    vec4 color = mix(backgroundColor, foregroundColor, clamp(computeLuma(texCoord-vec2(posx,posy)),0,1));
 
     // Apply brightness
-    color += vec3(brightness);
+    color.rgb += vec3(brightness);
 
-    return vec4( color, 1.0f );
+    // Apply contrast
+    color.rgb = mix(vec3(0.5), color.rgb, contrast);
+
+    return color;
 }
 

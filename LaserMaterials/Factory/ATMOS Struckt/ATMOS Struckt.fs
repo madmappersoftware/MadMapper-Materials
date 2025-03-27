@@ -1,20 +1,15 @@
 /*{
-    "CREDIT": "Matt Beghin",
-    "DESCRIPTION": "Labirynth effect",
-    "TAGS": "graphic",
-    "VSN": "1.0",
-    "INPUTS": [
-        {
-            "NAME": "spectrum",
-            "TYPE": "audioFFT",
-            "SIZE": 3,
-            "ATTACK": 0.0,
-            "DECAY": 0.0,
-            "RELEASE": 0.3
-        },
+	"RESOURCE_TYPE": "Laser Material for MadMapper",
+	"CREDIT": "Matt Beghin",
+	"DESCRIPTION": "Labirynth effect",
+	"TAGS": "graphic",
+	"VSN": "1.0",
+	"INPUTS": [
+		{ "NAME": "spectrum", "TYPE": "audioFFT", "SIZE": 3, "ATTACK": 0.0, "DECAY": 0.0, "RELEASE": 0.3 },
 
 		{ "LABEL": "Scale", "NAME": "mat_scale", "TYPE": "float", "MIN": 0.15, "MAX": 1.0, "DEFAULT": 0.5 },
 		{ "LABEL": "Offset", "NAME": "mat_offset", "TYPE": "point2D", "MAX": [ 1.0, 1.0 ], "MIN": [ -1.0, -1.0 ], "DEFAULT": [ 0.0, 0.0 ] },
+		{ "LABEL": "Angle", "NAME": "mat_button_angle", "TYPE": "long", "DEFAULT":"0", "VALUES": ["0","45","90"], "FLAGS": "button_grid" },
 
 		{ "LABEL": "Auto Move/Active", "NAME": "mat_auto", "TYPE": "bool", "DEFAULT": true, "FLAGS": "button" }, 
 		{ "LABEL": "Auto Move/Speed", "NAME": "mat_mspeed", "TYPE": "float", "MIN": 0.0, "MAX": 2.0, "DEFAULT": 0.4 }, 
@@ -22,23 +17,32 @@
 
 		{ "LABEL": "Audio Reactive/Active", "NAME": "mat_audio_level", "TYPE": "float", "MIN": 0.0, "MAX": 2.0, "DEFAULT": 0 }, 
 
-		{ "LABEL": "Color/Color", "NAME": "mat_color", "TYPE": "color", "DEFAULT": [ 1.0, 1.0, 1.0, 1.0 ], "FLAGS":"no_alpha" },
-      ],
-	 "GENERATORS": [
- 		{"NAME": "mat_mtime", "TYPE": "time_base", "PARAMS": {"speed": "mat_mspeed", "speed_curve":2,"link_speed_to_global_bpm":true}},
-    ],
-    "RENDER_SETTINGS": {
-       "POINT_COUNT": 333
-    }
+		{ "LABEL": "Color/Mod", "NAME": "mat_button_grid", "TYPE": "long", "DEFAULT":"Sin 2", "VALUES": ["Main","Grad","Osc","Sin 2","Sin 4","Sin 8","Sin 16","Sin 32","Crazy"], "DESCRIPTION":"Shape", "FLAGS": "button_grid" },
+		{ "LABEL": "Color/Main", "NAME": "mat_mainColor", "TYPE": "color", "DEFAULT": [ 1.0, 1.0, 1.0, 1.0 ] ,"FLAGS" :"no_alpha"},
+		{ "LABEL": "Color/Secondary", "NAME": "mat_secondaryColor", "TYPE": "color", "DEFAULT": [ 1.0, .0, .0, 1.0 ] ,"FLAGS" :"no_alpha"},
+		{ "LABEL": "Color/Alpha", "NAME": "mat_alpha", "TYPE": "float", "DEFAULT": 1.0, "MIN": 0.0, "MAX": 1. },
+
+		{ "LABEL": "Strobe/Activate", "NAME": "mat_strobeActivated", "TYPE": "bool", "DEFAULT": false, "FLAGS": "button" },
+		{ "LABEL": "Strobe/Speed", "NAME": "mat_speedStrobe", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT":0.6  },
+		{ "LABEL": "Strobe/Duration", "NAME": "mat_strobeDuration", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 0.25 },	
+	],
+	"GENERATORS": [
+		{ "NAME": "mat_mtime", "TYPE": "time_base", "PARAMS": {"speed": "mat_mspeed", "speed_curve":2,"link_speed_to_global_bpm":true}},
+		{ "NAME": "mat_timeStrobe", "TYPE": "time_base", "PARAMS": {"speed": "mat_strobeMultiplied","speed_curve": 1,"link_speed_to_global_bpm":false}},
+		{ "NAME": "mat_strobeMultiplied","TYPE": "multiplier","PARAMS": {"value1": "mat_speedStrobe", "value2":15, "value3": 1, "value4": 1}},
+	],
+	"RENDER_SETTINGS": {
+		"POINT_COUNT": 333
+	}
 }*/
 
 #include "MadCommon.glsl"
 #include "MadNoise.glsl"
 
 mat2 rot(float a) {
-  float ca=cos(a);
-  float sa=sin(a);
-  return mat2(ca,sa,-sa,ca);  
+	float ca=cos(a);
+	float sa=sin(a);
+	return mat2(ca,sa,-sa,ca);  
 }
 
 float retime(in float t)
@@ -109,10 +113,12 @@ void laserMaterialFunc(int pointNumber, int pointCount, out vec2 pos, out vec4 c
 	// We copy the pathes stored in "positions" 3x3 times
 	#define REPEAT_COUNT 3
 
-	if (pointNumber > 37 * REPEAT_COUNT * REPEAT_COUNT) {
-		shapeNumber = -1; // point will be ignored if shape number is negative
-		return;
-	}
+	// No need to test pointNumber since we set "POINT_COUNT": 333
+	// #define USED_POINT_COUNT 37 * REPEAT_COUNT * REPEAT_COUNT
+	// if (pointNumber > 37 * REPEAT_COUNT * REPEAT_COUNT) {
+	// 	shapeNumber = -1; // point will be ignored if shape number is negative
+	// 	return;
+	// }
 
 	int copyNumber = pointNumber / 37;
 	int copyXOffset = copyNumber % REPEAT_COUNT;
@@ -131,21 +137,54 @@ void laserMaterialFunc(int pointNumber, int pointCount, out vec2 pos, out vec4 c
 
 	float alteredTime = retime(retime(retime(mat_mtime)));
 
-	if (mat_auto)
-	{
+	if (mat_auto) {
 		float t = alteredTime;
 		float x = flowNoise(vec2(t*0.2,1.234),34.567);
 		float y = flowNoise(vec2(t*0.2,0.497),7.0007);
 
 		pos += vec2(x,y)*mat_amplitude*3;
 		float a = flowNoise(vec2(t*0.4,0.765),0.5678);
-		pos *= rot(a);
+		
+		float base_rotation = (PI/4)*mat_button_angle;
+		if (FRAMEINDEX > 0) {
+			vec4 lastFrameUserData = texelFetch(mm_LastFrameData,ivec2(pointNumber,2),0);
+			base_rotation = mix(lastFrameUserData.x,base_rotation,0.1);
+		}
+		userData.x = base_rotation;
+
+		pos *= rot(a + base_rotation);
 	}
 	
 	if (mat_audio_level>0) {
-	    float audioVal = IMG_NORM_PIXEL(spectrum,vec2(0,0)).r * mat_audio_level * mat_audio_level - 0.1;
+			float audioVal = IMG_NORM_PIXEL(spectrum,vec2(0,0)).r * mat_audio_level * mat_audio_level - 0.1;
 		pos *= 1-0.3*max(0,audioVal);
 	}
 
-    color = mat_color;
+	float normalizedPos = pointNumber / 333.;
+	float normalizedPosMaxRight = (normalizedPos-mat_mtime)*2-1;
+	float normalizedPosMaxLeft = (normalizedPos+mat_mtime)*2-1;
+
+	if(mat_button_grid==0) {
+			color = vec4(mat_mainColor.rgb,mat_alpha);
+	} else if(mat_button_grid==1) {
+			color = vec4(mix(vec4(mat_mainColor.rgb,1.),vec4(mat_secondaryColor.rgb,mat_alpha),1-normalizedPos));
+	} else if(mat_button_grid==2) {
+			color = vec4(mix(vec4(mat_mainColor.rgb,1.),vec4(mat_secondaryColor.rgb,mat_alpha),(sin(mat_mtime*1*PI)+1)/2));
+	} else if(mat_button_grid==3) {
+			color = vec4(mix(vec4(mat_mainColor.rgb,1.),vec4(mat_secondaryColor.rgb,mat_alpha),cos(PI*(shapeNumber==0?normalizedPosMaxRight:normalizedPosMaxLeft)+PI)+1));
+	} else if(mat_button_grid==4) {
+			color = vec4(mix(vec4(mat_mainColor.rgb,1.),vec4(mat_secondaryColor.rgb,mat_alpha),cos(2*PI*(shapeNumber==0?normalizedPosMaxRight:normalizedPosMaxLeft)+PI)+1));
+	} else if(mat_button_grid==5) {
+			color = vec4(mix(vec4(mat_mainColor.rgb,1.),vec4(mat_secondaryColor.rgb,mat_alpha),cos(4*PI*(shapeNumber==0?normalizedPosMaxRight:normalizedPosMaxLeft)+PI)+1));
+	} else if(mat_button_grid==6) {
+			color = vec4(mix(vec4(mat_mainColor.rgb,1.),vec4(mat_secondaryColor.rgb,mat_alpha),cos(16*PI*(shapeNumber==0?normalizedPosMaxRight:normalizedPosMaxLeft)+PI)+1));
+	} else if(mat_button_grid==7) {
+			color = vec4(mix(vec4(mat_mainColor.rgb,1.),vec4(mat_secondaryColor.rgb,mat_alpha),cos(32*PI*(shapeNumber==0?normalizedPosMaxRight:normalizedPosMaxLeft)+PI)+1));
+	} else if(mat_button_grid==8) {
+			color = vec4(mix(vec4(mat_mainColor.rgb,1.),vec4(mat_secondaryColor.rgb,mat_alpha),cos(128*PI*(shapeNumber==0?normalizedPosMaxRight:normalizedPosMaxLeft)+PI)+1));
+	}
+
+	if(mat_strobeActivated) {
+		color *= fract(mat_timeStrobe)<mat_strobeDuration?1.:0.;
+	}
 }

@@ -184,7 +184,7 @@ vec4 materialColorForPixel(vec2 texCoord)
     }
 
     // Set a minimum smoothness so we avoid aliasing when rotated
-    float minSmoothness = 0.000001 * mat_repeat;
+    float minSmoothness = 0.00000001 * mat_repeat;
     float finalSmoothness = minSmoothness + mat_smoothness * mat_width * mat_widthValue/2;
     float halfFinalWidth = mat_width * mat_widthValue / 2;
 

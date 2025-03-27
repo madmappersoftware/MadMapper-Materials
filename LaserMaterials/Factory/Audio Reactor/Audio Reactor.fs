@@ -1,14 +1,15 @@
 /*{
-    "CREDIT": "frz / 1024 architecture",
-    "DESCRIPTION": "Audio reactive Laser Thing",
-    "TAGS": "laser",
-    "VSN": "1.3",
-    "INPUTS": [
+	"RESOURCE_TYPE": "Laser Material for MadMapper",
+	"CREDIT": "frz / 1024 architecture",
+	"DESCRIPTION": "Audio reactive Laser Thing",
+	"TAGS": "laser",
+	"VSN": "1.3",
+	"INPUTS": [
 
-	 	{
-            "NAME": "mat_waveform",
-            "TYPE": "audio",
-        },
+		{
+			"NAME": "mat_waveform",
+			"TYPE": "audio",
+		},
 
 		{"LABEL": "Global/Precision", "NAME": "mat_x", "TYPE": "int", "MIN": 2, "MAX": 300, "DEFAULT": 300 },
 		
@@ -28,25 +29,27 @@
 		{ "LABEL": "Color/Out", "NAME": "mat_leftColor", "TYPE": "color", "DEFAULT": [ 1.0, 0.0, 0.0, 1.0 ] ,"FLAGS" :"no_alpha"},
 		{ "LABEL": "Color/Center", "NAME": "mat_rightColor", "TYPE": "color", "DEFAULT": [ 1., 1., 1., 1.0 ] ,"FLAGS" :"no_alpha"},
 
-    ],
+	],
 
-    "GENERATORS": [
-        {"NAME": "mat_time", "TYPE": "time_base", "PARAMS": {"speed": "mat_speed","speed_curve": 2,"link_speed_to_global_bpm":true}},
-        {"NAME": "mat_ntime", "TYPE": "time_base", "PARAMS": {"speed": "mat_nspeed","speed_curve": 2,"link_speed_to_global_bpm":true}},
-    ],
-    "RENDER_SETTINGS": {
-       "POINT_COUNT": "mat_x",
-       "ANGLE_OPTIMIZATION": false
-    }
+	"GENERATORS": [
+		{"NAME": "mat_time", "TYPE": "time_base", "PARAMS": {"speed": "mat_speed","speed_curve": 2,"link_speed_to_global_bpm":true}},
+		{"NAME": "mat_ntime", "TYPE": "time_base", "PARAMS": {"speed": "mat_nspeed","speed_curve": 2,"link_speed_to_global_bpm":true}},
+	],
+	"RENDER_SETTINGS": {
+	   "POINT_COUNT": "mat_x",
+	   "ANGLE_OPTIMIZATION": false
+	}
 }*/
+
 #include "MadNoise.glsl"
 
 const float pi = 3.14159265359;
 
 float parabola( float x, float k )
 {
-    return pow( 4.0*x*(1.0-x), k );
+	return pow( 4.0*x*(1.0-x), k );
 }
+
 mat2 rotate(float a) {
 	float s = sin(a);
 	float c = cos(a);
@@ -67,15 +70,11 @@ void laserMaterialFunc(int pointNumber, int pointCount, out vec2 pos, out vec4 c
 
 	vec3 n = vec3(0.);
 
- if(mat_polar){
-	
-	pos2d = vec2(sin(normalizedPos * 2. * pi), cos(normalizedPos *2. * pi))*mat_size;
-	pos2d *= mix(1.,texture(mat_waveform,vec2(parabola(normalizedPos,2.)*normalizedPos,0.5)).r,0.2*mat_apower*4.);
-    
+	if(mat_polar) {
+		pos2d = vec2(sin(normalizedPos * 2. * pi), cos(normalizedPos *2. * pi))*mat_size;
+		pos2d *= mix(1.,texture(mat_waveform,vec2(parabola(normalizedPos,2.)*normalizedPos,0.5)).r,0.2*mat_apower*4.);
 	} else {
-
-	pos2d.y += texture(mat_waveform,vec2(parabola(normalizedPos,2.)*normalizedPos,0.5)).r*mat_apower*4.;
-
+		pos2d.y += texture(mat_waveform,vec2(parabola(normalizedPos,2.)*normalizedPos,0.5)).r*mat_apower*4.;
 	}
 
 	if (mat_type==0) n = dFlowNoise( pos2d*mat_scale, mat_ntime )*mat_power;
@@ -100,7 +99,6 @@ void laserMaterialFunc(int pointNumber, int pointCount, out vec2 pos, out vec4 c
 	if (lastPos.x > -1 && lastPos.x < 1) {
 		pos = mix(pos,lastPos,mat_feedback);
 	}
-
 
 	shapeNumber = idx;
 	color = vec4(mix(mat_leftColor.rgb,mat_rightColor.rgb,parabola(normalizedPos,10)),1);

@@ -1,26 +1,27 @@
 /*{
-    "CREDIT": "Mad Team",
-    "DESCRIPTION": "Line with Beams",
-    "TAGS": "laser,beams,atmos",
-    "VSN": "1.0",
-    "INPUTS": [
+	"RESOURCE_TYPE": "Laser Material for MadMapper",
+	"CREDIT": "Mad Team",
+	"DESCRIPTION": "Line with Beams",
+	"TAGS": "laser,beams,atmos",
+	"VSN": "1.0",
+	"INPUTS": [
 		{ "LABEL": "Global Scale", "NAME": "mat_global_scale", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 1.0 },
 		{ "LABEL": "Count", "NAME": "mat_count", "TYPE": "int", "MIN": 1, "MAX": 20, "DEFAULT": 4 },
 		{ "LABEL": "Groups", "NAME": "mat_group_count", "TYPE": "int", "MIN": 1, "MAX": 10, "DEFAULT": 3 },
-        { "LABEL": "Speed", "NAME": "mat_speed", "TYPE": "float", "MIN": 0.0, "MAX": 4.0, "DEFAULT": 1.0 },
+		{ "LABEL": "Speed", "NAME": "mat_speed", "TYPE": "float", "MIN": 0.0, "MAX": 4.0, "DEFAULT": 1.0 },
 		{ "LABEL": "Group Scale", "NAME": "mat_group_scale", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 0.2 },
-        { "LABEL": "Group Offset", "NAME": "mat_group_offset", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 0.1 },
-	    { "LABEL": "Symetry", "NAME": "mat_symetry", "TYPE": "bool", "DEFAULT": true, "FLAGS": "button" },
-	    { "LABEL": "Movement", "NAME": "mat_automoveshape", "TYPE": "long", "VALUES": ["Smooth","In","Noise"], "DEFAULT": "Noise" },
+		{ "LABEL": "Group Offset", "NAME": "mat_group_offset", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 0.1 },
+		{ "LABEL": "Symetry", "NAME": "mat_symetry", "TYPE": "bool", "DEFAULT": true, "FLAGS": "button" },
+		{ "LABEL": "Movement", "NAME": "mat_automoveshape", "TYPE": "long", "VALUES": ["Smooth","In","Noise"], "DEFAULT": "Noise" },
 
-	    { "LABEL": "Auto Scale/Active", "NAME": "mat_auto_scale", "TYPE": "bool", "DEFAULT": true, "FLAGS": "button" },
-	    { "LABEL": "Auto Scale/Offset", "NAME": "mat_auto_scale_offfset", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 0.0 },
+		{ "LABEL": "Auto Scale/Active", "NAME": "mat_auto_scale", "TYPE": "bool", "DEFAULT": true, "FLAGS": "button" },
+		{ "LABEL": "Auto Scale/Offset", "NAME": "mat_auto_scale_offfset", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 0.0 },
 
-	    { "LABEL": "Noise/Power", "NAME": "mat_noise_power", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 0.25 },
-	    { "LABEL": "Noise/Mode", "NAME": "mat_noise_mode", "TYPE": "long", "DEFAULT": "Flow", "VALUES": [ "Flow", "Billow", "fBm", "MultiFractal", "White" ] },
-	    { "LABEL": "Noise/Speed", "NAME": "mat_noise_speed", "TYPE": "float", "MIN": 0.0, "MAX": 4.0, "DEFAULT": 1.0 },
-	    { "LABEL": "Noise/Scale", "NAME": "mat_noise_scale", "TYPE": "float", "MIN": 0.1, "MAX": 10.0, "DEFAULT": 1.0 },
-	    { "LABEL": "Noise/Group Offset", "NAME": "mat_noise_group_offset", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 0.0 },
+		{ "LABEL": "Noise/Power", "NAME": "mat_noise_power", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 0.25 },
+		{ "LABEL": "Noise/Mode", "NAME": "mat_noise_mode", "TYPE": "long", "DEFAULT": "Flow", "VALUES": [ "Flow", "Billow", "fBm", "MultiFractal", "White" ] },
+		{ "LABEL": "Noise/Speed", "NAME": "mat_noise_speed", "TYPE": "float", "MIN": 0.0, "MAX": 4.0, "DEFAULT": 1.0 },
+		{ "LABEL": "Noise/Scale", "NAME": "mat_noise_scale", "TYPE": "float", "MIN": 0.1, "MAX": 10.0, "DEFAULT": 1.0 },
+		{ "LABEL": "Noise/Group Offset", "NAME": "mat_noise_group_offset", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 0.0 },
 
 		{ "LABEL": "Colors/Count", "NAME": "mat_color_count", "TYPE": "int", "MIN": 1, "MAX": 5, "DEFAULT": 5 }, 
 		{ "LABEL": "Colors/Color 1", "NAME": "mat_color1", "TYPE": "color", "DEFAULT": [1,1,1,1] }, 
@@ -30,17 +31,17 @@
 		{ "LABEL": "Colors/Color 5", "NAME": "mat_color5", "TYPE": "color", "DEFAULT": [0.5,0.4,0.3,1] }, 
 		{ "LABEL": "Colors/Offset", "NAME": "mat_color_group_offset", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 1.0 },
 		{ "LABEL": "Colors/Auto Cycle", "NAME": "mat_color_auto", "TYPE": "bool", "DEFAULT": true, "FLAGS": "button" },
-	    { "LABEL": "Colors/Speed", "NAME": "mat_color_speed", "TYPE": "float", "MIN": 0.0, "MAX": 4.0, "DEFAULT": 0.5 },
-    ],
-    "GENERATORS": [
-        {"NAME": "mat_animation_time", "TYPE": "time_base", "PARAMS": {"speed": "mat_speed", "speed_curve":2,}},
-	    {"NAME": "mat_noise_time", "TYPE": "time_base", "PARAMS": {"speed": "mat_noise_speed", "speed_curve":2,}},
-	    {"NAME": "mat_color_time", "TYPE": "time_base", "PARAMS": {"speed": "mat_color_speed", "speed_curve":2,}},
+		{ "LABEL": "Colors/Speed", "NAME": "mat_color_speed", "TYPE": "float", "MIN": 0.0, "MAX": 4.0, "DEFAULT": 0.5 },
 	],
-    "RENDER_SETTINGS": {
-       "POINT_COUNT": 1024,
-       "PRESERVE_ORDER": true
-    }
+	"GENERATORS": [
+		{"NAME": "mat_animation_time", "TYPE": "time_base", "PARAMS": {"speed": "mat_speed", "speed_curve":2,}},
+		{"NAME": "mat_noise_time", "TYPE": "time_base", "PARAMS": {"speed": "mat_noise_speed", "speed_curve":2,}},
+		{"NAME": "mat_color_time", "TYPE": "time_base", "PARAMS": {"speed": "mat_color_speed", "speed_curve":2,}},
+	],
+	"RENDER_SETTINGS": {
+	   "POINT_COUNT": 1024,
+	   "PRESERVE_ORDER": true
+	}
 }*/
 
 #include "MadCommon.glsl"
@@ -73,7 +74,7 @@ void laserMaterialFunc(int pointNumber, int pointCount, out vec2 pos, out vec4 c
 
 	// Nothing to write
 	if (groupNumber >= mat_group_count) {
-	    shapeNumber = -1;
+		shapeNumber = -1;
 		return;
 	}	
 
@@ -116,7 +117,7 @@ void laserMaterialFunc(int pointNumber, int pointCount, out vec2 pos, out vec4 c
 	pos = vec2(-0.9+1.8*xInSegment,0);
 
 	// Add noise
-    float noiseValue = 0.;
+	float noiseValue = 0.;
 
 	if (mat_noise_mode == 0) { // Flow
 		noiseValue = flowNoise(vec2(groupBaseX,groupNumber*mat_noise_group_offset)*mat_noise_scale * 0.9543 + vec2(0.21,453.2),mat_noise_time/2);

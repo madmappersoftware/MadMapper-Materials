@@ -1,9 +1,10 @@
 /*{
-    "CREDIT": "Mad Matt",
-    "DESCRIPTION": "Animated groups of beams",
-    "TAGS": "atmos,beam",
-    "VSN": "1.0",
-    "INPUTS": [
+	"RESOURCE_TYPE": "Laser Material for MadMapper",
+	"CREDIT": "Mad Matt",
+	"DESCRIPTION": "Animated groups of beams",
+	"TAGS": "atmos,beam",
+	"VSN": "1.0",
+	"INPUTS": [
 			{"LABEL": "Global/Scale", "NAME": "mat_scale", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 0.8 }, 
 			{"LABEL": "Global/Groups", "NAME": "mat_groups", "TYPE": "int", "MIN": 1, "MAX": 10, "DEFAULT": 2 }, 
 			{"LABEL": "Global/Points", "NAME": "mat_points", "TYPE": "int", "MIN": 4, "MAX": 10, "DEFAULT": 4 }, 
@@ -48,9 +49,9 @@
 	],
 	"RENDER_SETTINGS": {
 	   "POINT_COUNT": 4000,
-       "PRESERVE_ORDER": true,
-       "ENABLE_FRAME_BLENDING": false
-    }
+	   "PRESERVE_ORDER": true,
+	   "ENABLE_FRAME_BLENDING": false
+	}
 }*/
 
 #include "MadCommon.glsl"
@@ -84,8 +85,8 @@ void laserMaterialFunc(int pointNumber, int pointCount, out vec2 pos, out vec4 c
 		float cos_factor = cos(angle);
 		//uv *= mat2(cos_factor, sin_factor, -sin_factor, cos_factor);
 		mat3 rotMat = mat3(cos_factor, sin_factor, 0,
-		                   -sin_factor, cos_factor, 0,
-		                   0, 0, 1);
+						   -sin_factor, cos_factor, 0,
+						   0, 0, 1);
 		pos = (rotMat * vec3(pos,0)).xy;
 	}
 
@@ -96,14 +97,14 @@ void laserMaterialFunc(int pointNumber, int pointCount, out vec2 pos, out vec4 c
 	
 	// Move
 	if (mat_automoveactive) {
-	  // "Smooth"=0,"In"=1,"Noise"=2
-	  if (mat_automoveshape == 0) {
-	    pos.x += mat_automovesize * sin((mat_move_position/10+normalizedGroupIdx*mat_automoveoffset)*2*PI);
-	  } else if (mat_automoveshape == 1) {
-	    pos.x += mat_automovesize * 2 * (0.5-mod((mat_move_position/5+normalizedGroupIdx*mat_automoveoffset),1));
-	  } else {
-	    pos.x += mat_automovesize * noise(vec2((mat_move_position/5+normalizedGroupIdx*mat_automoveoffset*10),0));
-	  }
+		// "Smooth"=0,"In"=1,"Noise"=2
+		if (mat_automoveshape == 0) {
+			pos.x += mat_automovesize * sin((mat_move_position/10+normalizedGroupIdx*mat_automoveoffset)*2*PI);
+		} else if (mat_automoveshape == 1) {
+			pos.x += mat_automovesize * 2 * (0.5-mod((mat_move_position/5+normalizedGroupIdx*mat_automoveoffset),1));
+		} else {
+			pos.x += mat_automovesize * noise(vec2((mat_move_position/5+normalizedGroupIdx*mat_automoveoffset*10),0));
+		}
 	}
 
 	// Rotate
@@ -127,24 +128,24 @@ void laserMaterialFunc(int pointNumber, int pointCount, out vec2 pos, out vec4 c
 		float cos_factor = cos(angle);
 		//uv *= mat2(cos_factor, sin_factor, -sin_factor, cos_factor);
 		mat3 rotMat = mat3(cos_factor, sin_factor, 0,
-		                   -sin_factor, cos_factor, 0,
-		                   0, 0, 1);
+						   -sin_factor, cos_factor, 0,
+						   0, 0, 1);
 		pos = (vec3(pos,1) * rotMat).xy;
   }
 
 	// Light
 	float lightValue = 1;
 	if (mat_autolightactive) {
-	  // "cue"=0,Smooth"=1,"Out"=2,"Noise"=3
-	  if (mat_autolightshape == 0) {
-	    lightValue = fract((mat_light_position*2+normalizedGroupIdx*mat_autolightoffset))<0.5?1:0;
-	  } else if (mat_autolightshape == 1) {
-	    lightValue = 0.5+0.5*sin((mat_light_position*2+normalizedGroupIdx*mat_autolightoffset)*2*PI);
-	  } else if (mat_autolightshape == 2) {
-	    lightValue = 1-fract((mat_light_position*2+normalizedGroupIdx*mat_autolightoffset));
-	  } else {
-	    lightValue = 0.5+0.5*noise(vec2((mat_light_position*2+normalizedGroupIdx*mat_autolightoffset*10),0));
-	  }
+		// "cue"=0,Smooth"=1,"Out"=2,"Noise"=3
+		if (mat_autolightshape == 0) {
+			lightValue = fract((mat_light_position*2+normalizedGroupIdx*mat_autolightoffset))<0.5?1:0;
+		} else if (mat_autolightshape == 1) {
+			lightValue = 0.5+0.5*sin((mat_light_position*2+normalizedGroupIdx*mat_autolightoffset)*2*PI);
+		} else if (mat_autolightshape == 2) {
+			lightValue = 1-fract((mat_light_position*2+normalizedGroupIdx*mat_autolightoffset));
+		} else {
+			lightValue = 0.5+0.5*noise(vec2((mat_light_position*2+normalizedGroupIdx*mat_autolightoffset*10),0));
+		}
 	}
 
 	pos = mat_scale * pos;

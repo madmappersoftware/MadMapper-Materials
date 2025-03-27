@@ -52,6 +52,7 @@
         { "LABEL": "Auto Move/Shape", "NAME": "mat_automoveshape", "TYPE": "long", "VALUES": ["Smooth","In","Linear","Cut","Noise","Smooth In"], "DEFAULT": "In", "FLAGS": "generate_as_define" },
         { "LABEL": "Color/Front Color", "NAME": "mat_foreground_color", "TYPE": "color", "DEFAULT": [ 1.0, 1.0, 1.0, 1.0 ] },  
         { "LABEL": "Color/Back Color", "NAME": "mat_background_color", "TYPE": "color", "DEFAULT": [ 0.0, 0.0, 0.0, 1.0 ] },
+        { "LABEL": "Global/BPM Sync", "NAME": "mat_bpmsync", "TYPE": "bool", "DEFAULT": 0, "FLAGS": "button" },
     ],
     "GENERATORS": [
         {

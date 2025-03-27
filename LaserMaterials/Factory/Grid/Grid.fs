@@ -1,16 +1,17 @@
 /*{
-    "CREDIT": "Mad Team",
-    "DESCRIPTION": "Grid",
-    "TAGS": "template",
-    "VSN": "1.0",
-    "INPUTS": [ 
-        {"LABEL": "Divisions X", "NAME": "mat_div_x", "TYPE": "int", "MIN": 0, "MAX": 40, "DEFAULT": 4.0 }, 
-        {"LABEL": "Divisions Y", "NAME": "mat_div_y", "TYPE": "int", "MIN": 0, "MAX": 40, "DEFAULT": 4.0 }, 
+	"RESOURCE_TYPE": "Laser Material for MadMapper",
+	"CREDIT": "Mad Team",
+	"DESCRIPTION": "Grid",
+	"TAGS": "template",
+	"VSN": "1.0",
+	"INPUTS": [ 
+		{"LABEL": "Divisions X", "NAME": "mat_div_x", "TYPE": "int", "MIN": 0, "MAX": 40, "DEFAULT": 4.0 }, 
+		{"LABEL": "Divisions Y", "NAME": "mat_div_y", "TYPE": "int", "MIN": 0, "MAX": 40, "DEFAULT": 4.0 }, 
 		{"LABEL": "Color", "NAME": "mat_color", "TYPE": "color", "DEFAULT": [1,1,1,1], "FLAGS" : "no_alpha"}, 
-    ],
-    "RENDER_SETTINGS": {
-       "POINT_COUNT": 800
-    }
+	],
+	"RENDER_SETTINGS": {
+		"POINT_COUNT": 800
+	}
 }*/
 
 void laserMaterialFunc(int pointNumber, int pointCount, out vec2 pos, out vec4 color, out int shapeNumber, out vec4 userData)
@@ -43,5 +44,5 @@ void laserMaterialFunc(int pointNumber, int pointCount, out vec2 pos, out vec4 c
 		pos.y = -1 + 2 * isEndPoint;
 	}
 
-    color = mat_color;
+	color = mat_color;
 }

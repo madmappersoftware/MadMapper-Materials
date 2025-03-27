@@ -11,17 +11,14 @@
 
 highp float rand(vec2 co)
 {
-    highp float a = 12.9898;
-    highp float b = 78.233;
-    highp float c = 43758.5453;
-    highp float dt= dot(co.xy ,vec2(a,b));
+    highp float dt= dot(co.xy ,vec2(12.9898,78.233)) + 100000*co.x;
     highp float sn= mod(dt,3.14);
-    return fract(sin(sn) * c);
+    return fract(sin(sn) * 143758.5453);
 }
 
 vec4 materialColorForPixel(vec2 texCoord)
 {
-	float noise_value = rand(texCoord.xy*TIME);
+	float noise_value = rand(texCoord.xy*(TIME+1.12)); // +1 to avoid division by zero if TIME == 0
 
      // Apply contrast
     noise_value = mix(0.5, noise_value, contrast);

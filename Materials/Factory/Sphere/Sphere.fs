@@ -5,7 +5,7 @@
     "VSN": "1.0",
     "INPUTS": [ 
 	{ "LABEL": "Repetitions", "NAME": "mat_repeat", "TYPE": "int", "MIN": 1, "MAX": 8, "DEFAULT": 1 }, 
-    { "LABEL": "Radius", "NAME": "mat_radius", "TYPE": "float", "MIN": 0.1, "MAX": 1, "DEFAULT": 0.45 },
+    { "LABEL": "Radius", "NAME": "mat_radius", "TYPE": "float", "MIN": 0, "MAX": 1, "DEFAULT": 0.45 },
 	{ "LABEL": "Randomize", "NAME": "mat_randomize", "TYPE": "float", "MIN": 0.0, "MAX": 1., "DEFAULT": 1. },
 	{ "LABEL": "Offset", "NAME": "mat_offset", "TYPE": "point2D", "MAX": [ 4.0, 4.0 ], "MIN": [ -4.0, -4.0 ], "DEFAULT": [ -0.5, -1. ] },
 
@@ -29,6 +29,8 @@
 
 vec4 materialColorForPixel( vec2 texCoord )
 {
+  if (mat_radius <= 0) return vec4(0,0,0,1);
+
 	// get texture coordinates
 	vec2 uv = fract(texCoord*mat_repeat);
 	vec2 seed = floor(texCoord*mat_repeat+1.);

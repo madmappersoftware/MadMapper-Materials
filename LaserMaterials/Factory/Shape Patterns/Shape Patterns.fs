@@ -1,9 +1,10 @@
 /*{
-    "CREDIT": "Mad Matt",
-    "DESCRIPTION": "Shape Patterns with an image as timeline",
-    "TAGS": "atmospheric,bpm,beam",
-    "VSN": "1.0",
-    "INPUTS": [ 
+	"RESOURCE_TYPE": "Laser Material for MadMapper",
+	"CREDIT": "Mad Matt",
+	"DESCRIPTION": "Shape Patterns with an image as timeline",
+	"TAGS": "atmospheric,bpm,beam",
+	"VSN": "1.0",
+	"INPUTS": [ 
 		{"LABEL": "Global/Speed", "NAME": "mat_speed", "TYPE": "float", "MIN": 0.0, "MAX": 3.0, "DEFAULT": 1.0 }, 
 		{"LABEL": "Global/Scale", "NAME": "mat_scale", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 0.25 }, 
 		{"LABEL": "Global/Smooth", "NAME": "mat_smooth", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 0.9 }, 
@@ -12,25 +13,25 @@
 		{"LABEL": "Global/Max Shapes", "NAME": "mat_max_shapes", "TYPE": "int", "MIN": 1, "MAX": 5, "DEFAULT": 3 }, 
 		{"LABEL": "Global/Draw Beam", "NAME": "mat_draw_beam", "TYPE": "bool", "DEFAULT": false, "FLAGS": "button" },
 		{"LABEL": "Global/Color", "NAME": "mat_color", "TYPE": "color", "DEFAULT": [1,1,1,1] }, 
-	    {"LABEL": "Global/BPM Sync", "NAME": "mat_bpmsync", "TYPE": "bool", "DEFAULT": true, "FLAGS": "button" },
-	    {"LABEL": "Global/Pattern", "NAME": "mat_pattern", "TYPE": "int", "DEFAULT": 0, "MIN":0, "MAX": 16 },
+		{"LABEL": "Global/BPM Sync", "NAME": "mat_bpmsync", "TYPE": "bool", "DEFAULT": true, "FLAGS": "button" },
+		{"LABEL": "Global/Pattern", "NAME": "mat_pattern", "TYPE": "int", "DEFAULT": 0, "MIN":0, "MAX": 16 },
 		{"LABEL": "Auto Move/Speed", "NAME": "mat_translate_speed", "TYPE": "float", "MIN": 0.0, "MAX": 2.0, "DEFAULT": 1.0 }, 
 		{"LABEL": "Auto Move/Width", "NAME": "mat_translate_width", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 1.0 }, 
 		{"LABEL": "Auto Move/Height", "NAME": "mat_translate_height", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 0.0 }, 
 		{"LABEL": "Effects/Auto Rotate", "NAME": "mat_auto_rotate", "TYPE": "bool", "DEFAULT": true, "FLAGS": "button" }, 
 		{"LABEL": "Effects/Auto Flicker", "NAME": "mat_auto_flicker", "TYPE": "bool", "DEFAULT": true, "FLAGS": "button" }, 
 		{"LABEL": "Effects/Auto Scale", "NAME": "mat_scale_level", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 1.0 }, 
-    ],
-    "IMPORTED": [
-        {"NAME": "patterns", "PATH": "Patterns.png", "GL_TEXTURE_MIN_FILTER": "NEAREST", "GL_TEXTURE_MAG_FILTER": "NEAREST", "GL_TEXTURE_WRAP": "REPEAT"}
-    ],
-    "GENERATORS": [
-        {"NAME": "mat_time", "TYPE": "time_base", "PARAMS": {"speed": "mat_speed","bpm_sync": "mat_bpmsync", "speed_curve": 2,"link_speed_to_global_bpm":true}},
-    ],
-    "RENDER_SETTINGS": {
-       "INDEX_COUNT": 4000,
-       "PRESERVE_ORDER": true
-    }
+	],
+	"IMPORTED": [
+		{"NAME": "patterns", "PATH": "Patterns.png", "GL_TEXTURE_MIN_FILTER": "NEAREST", "GL_TEXTURE_MAG_FILTER": "NEAREST", "GL_TEXTURE_WRAP": "REPEAT"}
+	],
+	"GENERATORS": [
+		{"NAME": "mat_time", "TYPE": "time_base", "PARAMS": {"speed": "mat_speed","bpm_sync": "mat_bpmsync", "speed_curve": 2,"link_speed_to_global_bpm":true}},
+	],
+	"RENDER_SETTINGS": {
+	   "INDEX_COUNT": 4000,
+	   "PRESERVE_ORDER": true
+	}
 }*/
 
 #include "MadCommon.glsl"
@@ -158,8 +159,8 @@ void laserMaterialFunc(int pointNumber, int pointCount, out vec2 pos, out vec4 c
 		float cos_factor = cos(angle);
 		//uv *= mat2(cos_factor, sin_factor, -sin_factor, cos_factor);
 		mat3 rotMat = mat3(cos_factor, sin_factor, 0,
-		                   -sin_factor, cos_factor, 0,
-		                   0, 0, 1);
+						   -sin_factor, cos_factor, 0,
+						   0, 0, 1);
 		pos = (rotMat * vec3(pos,0)).xy;
 	}
 

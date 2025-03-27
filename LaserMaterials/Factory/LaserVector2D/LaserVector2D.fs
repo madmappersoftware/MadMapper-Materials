@@ -1,19 +1,20 @@
 /*{
-    "CREDIT": "Mad Matt",
-    "DESCRIPTION": "describe your material here",
-    "TAGS": "template",
-    "VSN": "1.0",
-    "INPUTS": [ 
+	"RESOURCE_TYPE": "Laser Material for MadMapper",
+	"CREDIT": "Mad Matt",
+	"DESCRIPTION": "describe your material here",
+	"TAGS": "template",
+	"VSN": "1.0",
+	"INPUTS": [ 
 		{"LABEL": "Global/Scale", "NAME": "mat_scale", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 0.5 }, 
 		{"LABEL": "Global/Size", "NAME": "mat_size", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 1.0 }, 
 		{"LABEL": "Global/Shape", "NAME": "mat_shape", "TYPE": "float", "MIN": 0.0, "MAX": 4.0, "DEFAULT": 0.0 }, 
 		{"LABEL": "Global/Shape Count", "NAME": "mat_shape_count", "TYPE": "int", "MIN": 1, "MAX": 20, "DEFAULT": 2 }, 
 		{"LABEL": "Global/Color", "NAME": "mat_color", "TYPE": "color", "DEFAULT": [1,1,1,1] }, 
-    ],
-    "RENDER_SETTINGS": {
-       "POINT_COUNT": 4000,
-       "PRESERVE_ORDER": true
-    }
+	],
+	"RENDER_SETTINGS": {
+		"POINT_COUNT": 4000,
+		"PRESERVE_ORDER": true
+	}
 }*/
 
 #include "auto_all.glsl"

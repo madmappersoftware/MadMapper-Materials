@@ -1,9 +1,10 @@
 /*{
-    "CREDIT": "frz / 1024 architecture",
-    "DESCRIPTION": "Simple vector grid of crosses",
-    "TAGS": "laser",
-    "VSN": "1.0",
-    "INPUTS": [
+	"RESOURCE_TYPE": "Laser Material for MadMapper",
+	"CREDIT": "frz / 1024 architecture",
+	"DESCRIPTION": "Simple vector grid of crosses",
+	"TAGS": "laser",
+	"VSN": "1.0",
+	"INPUTS": [
 		{"LABEL": "Global/X", "NAME": "mat_x", "TYPE": "int", "MIN": 1, "MAX": 30, "DEFAULT": 3 },
 		{"LABEL": "Global/Y", "NAME": "mat_y", "TYPE": "int", "MIN": 1, "MAX": 30, "DEFAULT": 3 },
 		{"LABEL": "Global/Width", "NAME": "mat_width", "TYPE": "float", "MIN": 0.0, "MAX": 2.0, "DEFAULT": 0.5 },  
@@ -14,18 +15,19 @@
 
 		{"LABEL": "Color/Flicker", "NAME": "mat_flicker", "TYPE": "float", "MIN": 0.0, "MAX": 1.0, "DEFAULT": 0.0 },
 		{"LABEL": "Color/Speed", "NAME": "mat_fspeed", "TYPE": "float", "MIN": 0.0, "MAX": 4.0, "DEFAULT": 1.3 },    
-    ],
+	],
 
-    "GENERATORS": [
-        {"NAME": "mat_time", "TYPE": "time_base", "PARAMS": {"speed": "mat_speed","speed_curve": 2,"link_speed_to_global_bpm":true}},
+	"GENERATORS": [
+		{"NAME": "mat_time", "TYPE": "time_base", "PARAMS": {"speed": "mat_speed","speed_curve": 2,"link_speed_to_global_bpm":true}},
 		{"NAME": "mat_ftime", "TYPE": "time_base", "PARAMS": {"speed": "mat_fspeed","speed_curve": 2,"link_speed_to_global_bpm":true}},
 		{"NAME": "mat_instance_count", "TYPE": "multiplier", "PARAMS": {"value1": "mat_x", "value2": "mat_y","value3" : 4}},
-    ],
-    "RENDER_SETTINGS": {
-       "POINT_COUNT": "mat_instance_count",
-       "PRESERVE_ORDER": true,
-    }
+	],
+	"RENDER_SETTINGS": {
+	   "POINT_COUNT": "mat_instance_count",
+	   "PRESERVE_ORDER": true,
+	}
 }*/
+
 #include "MadNoise.glsl"
 
 const float pi = 3.14159265359;
