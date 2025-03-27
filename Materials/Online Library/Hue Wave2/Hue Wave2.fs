@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Modified by Mark Stokes Derived by Tim Brassey from Shadertoy Synth Waves by Avin",
     "DESCRIPTION": "Hue Waves2",
     "TAGS": "template",

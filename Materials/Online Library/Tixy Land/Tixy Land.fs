@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Xor, adapted by Jason Beyers",
 
     "DESCRIPTION": "From https://www.shadertoy.com/view/3dtBDN",

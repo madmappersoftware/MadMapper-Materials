@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "ayato, adapted by Jason Beyers",
 
     "DESCRIPTION": "From https://neort.io/art/bmqrgkk3p9f7m1g02lng?index=1195&origin=tag",

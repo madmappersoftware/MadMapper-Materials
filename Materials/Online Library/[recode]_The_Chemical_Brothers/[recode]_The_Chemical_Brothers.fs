@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nTristan Le Moigne",
     "DESCRIPTION": "Inspired by The Chemical Brothers - Dig Your Own Hole/ 1997",
     "TAGS": "album cover",

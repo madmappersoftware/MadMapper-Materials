@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Mad Team",
     "DESCRIPTION": "Audio Waveform",
     "VSN": "1.0",

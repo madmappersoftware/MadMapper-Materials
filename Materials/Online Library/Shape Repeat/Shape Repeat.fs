@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Matt Beghin",
     "TAGS": ["Graphic"],
     "VSN": "1.0",

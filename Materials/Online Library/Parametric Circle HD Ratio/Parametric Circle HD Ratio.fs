@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "for Tij mod Gael Abegg Gauthey",
     "DESCRIPTION": "moving circle HD Ratio",
     "TAGS": "utility",

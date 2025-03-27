@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Mad Team",
     "DESCRIPTION": "Simple AAudio Spectrum",
     "VSN": "1.0",

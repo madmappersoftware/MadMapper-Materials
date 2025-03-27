@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Matt Beghin",
     "TAGS": "graphic,shape,texture",
 	"DESCRIPTION": "Some experiments mixing different shapes. Cool slow texturing.",

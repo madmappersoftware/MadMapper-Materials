@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Author unknown, adapted by Jason Beyers",
 
     "DESCRIPTION": "Animated maze layers. From http:\/\/glslsandbox.com\/e#61012.2",

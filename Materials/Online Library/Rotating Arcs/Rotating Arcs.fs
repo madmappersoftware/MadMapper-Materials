@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Matt Beghin",
     "DESCRIPTION": "Tools for mapping circles: animated arcs or cenetered circle shapes",
     "VSN": "1.1",

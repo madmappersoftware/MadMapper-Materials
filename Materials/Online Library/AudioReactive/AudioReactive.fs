@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "frz / testing audio input responsivess",
     "DESCRIPTION": "graphing a simple test line\nto display an audio FFT\nand check its responsiveness",
     "TAGS": "template",

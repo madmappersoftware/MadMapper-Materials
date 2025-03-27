@@ -5,6 +5,7 @@
     "2d",
     "psychedelic"
   ],
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "mojovideotech, adapted by Jason Beyers",
   "DESCRIPTION" : "Converted from interactiveshaderformat.com/sketches/976",
   "VSN": "1.0",

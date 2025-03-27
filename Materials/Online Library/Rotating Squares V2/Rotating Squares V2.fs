@@ -4,6 +4,7 @@
     "Automatically Converted",
     "GLSLSandbox"
   ],
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "Adapted by Jason Beyers, Modified by Simon Holden - Removed forced red, and added multiplier. ",
   "VSN": "1.0",
   "INPUTS": [

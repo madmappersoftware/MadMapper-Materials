@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "ported to MM by\nfrz / 1024",
     "DESCRIPTION": "K.jpg's Simplex-like Re-oriented 4-Point BCC Noise",
     "TAGS": "noise",

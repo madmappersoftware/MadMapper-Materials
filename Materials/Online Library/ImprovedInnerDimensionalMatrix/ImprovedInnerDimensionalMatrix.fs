@@ -1,4 +1,5 @@
 /*{
+	    "RESOURCE_TYPE": "Material For MadMapper",
 	"CREDIT": "mojovideotec, Sam Nobs",
 	"CATEGORIES" : [ "generator"
   ],

@@ -1,4 +1,5 @@
 /*{
+	    "RESOURCE_TYPE": "Material For MadMapper",
 	"CREDIT": "ameisso",
 	"DESCRIPTION": "flip",
 	"TAGS": "template",

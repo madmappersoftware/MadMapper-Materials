@@ -1,6 +1,7 @@
 /*{
     "NAME": "Image Scroller",
     "AUTHOR": "Pi & Mash",
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Pi & Mash",
     "DESCRIPTION": "A simple repeating image scroller.  YOu can change the images in your local folder if required (Documents\MadMapper\Materials\Image Scroller)",
     "TAGS": "graphic",

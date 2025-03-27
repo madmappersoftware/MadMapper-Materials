@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Do something cool",
     "DESCRIPTION": "Raymarching template",
     "TAGS": "template",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "luiscript",
     "DESCRIPTION": "Sine waves that represents Low, Mid and Hi frequencies",
     "TAGS": "lines, waves, audio, sine, reactive",

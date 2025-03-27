@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nTristan Le Moigne",
     "DESCRIPTION": "Inspired by Ryoji Ikeda - Dataplex / 2005",
     "TAGS": "album cover",

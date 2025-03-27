@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "cardinalsine, adapted by Jason Beyers",
 
     "DESCRIPTION": "Iris generator. From https:\/\/www.shadertoy.com\/view\/4ltBRj",

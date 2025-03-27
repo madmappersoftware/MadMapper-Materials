@@ -5,6 +5,7 @@
     "GLSLSandbox"
   ],
   "VSN": "1.2",
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "Jason Beyers",
     "INPUTS": [
         {

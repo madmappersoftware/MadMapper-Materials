@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Henry Florence",
     "DESCRIPTION": "Based on the shader from Enttec ELM. Uses alpha channel, so can be easily layered.",
     "TAGS": "color pixelmapping",

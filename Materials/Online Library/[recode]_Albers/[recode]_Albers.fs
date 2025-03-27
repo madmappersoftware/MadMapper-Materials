@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nTristan Le Moigne",
     "DESCRIPTION": "Inspired by Josef Albers - SP / 1967",
     "TAGS": "painting",

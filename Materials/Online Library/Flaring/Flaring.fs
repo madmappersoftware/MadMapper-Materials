@@ -3,6 +3,7 @@
   "CATEGORIES" : [
     "GLSLSandbox"
   ],
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "nimitz, adapted by Jason Beyers",
   "DESCRIPTION" : "Converted from https://www.shadertoy.com/view/lsSGzy",
   "VSN": "1.0",

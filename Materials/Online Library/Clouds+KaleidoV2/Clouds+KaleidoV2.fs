@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Mad Team modified by ProjectileObjects",
     "DESCRIPTION": "Clouds with Smooth Rotation, Reverse Speed, Kaleidoscope and Mirror.",
     "VSN": "2.0",

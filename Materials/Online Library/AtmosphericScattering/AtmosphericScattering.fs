@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "ported by frz / \noriginal shadertoy WtBXWw by bearworks",
     "DESCRIPTION": "Out-door light scattering",
     "TAGS": "physical",

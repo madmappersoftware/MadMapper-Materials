@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Matt Beghin",
     "CATEGORIES": ["Graphic"],
     "DESCRIPTION": "Experiment drawing geometric shapes, merging between rectangles and circles.",

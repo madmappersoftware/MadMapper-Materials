@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nFranz",
     "DESCRIPTION": "Inpired by Tame Impala - Currents / 2015",
     "TAGS": "album cover",

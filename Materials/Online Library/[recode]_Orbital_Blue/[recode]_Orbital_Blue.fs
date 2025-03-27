@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nTristan Le Moigne",
     "DESCRIPTION": "Inspired by Orbital - Blue Album / 2004",
     "TAGS": "album cover",

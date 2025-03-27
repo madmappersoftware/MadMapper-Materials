@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Stefan Gustavson",
     "DESCRIPTION": "Seamless Loopable Noise",
     "TAGS": "noise",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "shadertoy XdcyzN\nport by frz ",
     "DESCRIPTION": "fractured geometrical patterns",
     "TAGS": "graphic",

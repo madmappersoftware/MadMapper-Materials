@@ -1,5 +1,6 @@
 /*{
     "DESCRIPTION": "Psychedelic Planet Raymarching with Background",
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Anonyme",
     "CATEGORIES": [
         "Generator"

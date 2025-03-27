@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nadapted from Shane\nShaderToy XlBXWw",
     "TAGS": "texture",
     "INPUTS": [ 

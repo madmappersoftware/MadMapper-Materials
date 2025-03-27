@@ -1,4 +1,5 @@
 /*{
+	    "RESOURCE_TYPE": "Material For MadMapper",
 	"CREDIT": "Matt Beghin",
     "TAGS": "audio,reactive,waveform",
 	"DESCRIPTION": "Base on Waveform Synth material, this one renders the waveform multiple times with various transforms",

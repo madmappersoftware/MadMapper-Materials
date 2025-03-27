@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "by mojovideotech, adapted by Jason Beyers",
     "CATEGORIES": [
         "procedural",

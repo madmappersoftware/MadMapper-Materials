@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "edwy",
     "DESCRIPTION": "Simple hexagon pattern",
     "TAGS": "graphic",

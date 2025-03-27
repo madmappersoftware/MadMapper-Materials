@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "raymarched plasma from shadertoy llsSR7",
     "DESCRIPTION": "electromagnetic plasma drive",
     "TAGS": "plasma",

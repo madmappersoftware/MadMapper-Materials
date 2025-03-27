@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Shadertoy lslXRS\nby nimitz",
     "DESCRIPTION": "Animated Noise in a lava fashion",
     "TAGS": "noise",

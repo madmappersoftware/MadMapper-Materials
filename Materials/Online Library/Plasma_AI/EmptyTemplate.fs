@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "franz\n1024 architecture",
     "DESCRIPTION": "Automatic Plasma colors",
     "TAGS": "LED",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Shadertoy wtl3zM\nby  omeometo",
     "DESCRIPTION": "graphic noodling",
     "TAGS": "raymarch",

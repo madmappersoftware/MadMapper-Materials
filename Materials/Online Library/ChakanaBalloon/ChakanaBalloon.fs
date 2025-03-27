@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Ivan Verdugo",
     "DESCRIPTION": "Chakana Balloon, Andean Cross",
     "TAGS": "chakana, cross, andean, chile, peru, bolivia, andes",

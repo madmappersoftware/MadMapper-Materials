@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Converted by ProjectileObjects from Shadertoy by mrange",
     "DESCRIPTION": "fBM Liquid Metal as Material",
     "TAGS": "noise, metal",

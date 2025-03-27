@@ -3,6 +3,7 @@
   "CATEGORIES" : [
     "GLSLSandbox"
   ],
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "AntoineC, adapted by Jason Beyers",
   "DESCRIPTION" : "Converted from https:\/\/www.shadertoy.com\/view\/lsVczK by AntoineC.  A slightly disquieting animation of torsioned (tortured?) pyramids!",
   "VSN": "1.0",

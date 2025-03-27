@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "TinyTexel, adapted by Jason Beyers, modified by Simon Holden",
     "DESCRIPTION": "Glowing Dots generator.",
     "VSN": "1.0",

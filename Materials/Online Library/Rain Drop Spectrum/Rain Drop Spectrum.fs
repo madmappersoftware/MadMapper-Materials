@@ -1,5 +1,6 @@
 /*{
     "DESCRIPTION": "Height Map Ray Marching with Audio Spectrum, Geometric Noise, Grain, Noise Speed, and Ambient Occlusion",
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Created by AI",
     "INPUTS": [
         { "NAME": "waveformFFT", "TYPE": "audioFFT", "SIZE": 256, "ATTACK": 0.1, "DECAY": 0.05, "RELEASE": 0.1 },

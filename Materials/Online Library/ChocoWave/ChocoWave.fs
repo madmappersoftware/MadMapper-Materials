@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Shadertoy ttl3Rj\nby  MrsBeanbag",
     "DESCRIPTION": "describe your material here",
     "TAGS": "template",

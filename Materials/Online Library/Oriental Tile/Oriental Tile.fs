@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Flopine, adapted by Jason Beyers",
 
     "DESCRIPTION": "Oriental tile generator. From https://www.shadertoy.com/view/WsSfRG",

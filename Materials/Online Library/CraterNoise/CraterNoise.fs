@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "davidar",
     "DESCRIPTION": "Crater noise generator",
     "TAGS": "noise",

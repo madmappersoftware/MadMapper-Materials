@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "frz",
     "DESCRIPTION": "okLab color mix",
     "TAGS": "utility",

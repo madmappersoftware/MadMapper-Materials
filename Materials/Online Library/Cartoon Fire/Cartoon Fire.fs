@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Alex Christoffer Rasmussen",
     "DESCRIPTION": "From shadertoy (credits soon sory)",
     "TAGS": "template",

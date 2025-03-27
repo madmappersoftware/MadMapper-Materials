@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Joe Griffith",
     "DESCRIPTION": "Mirrored Noise with transparency",
     "TAGS": "graphic",

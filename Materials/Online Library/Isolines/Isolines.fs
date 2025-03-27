@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "frz / 1024 architecture",
     "DESCRIPTION": "Simple Isoline on a billowed noise",
     "TAGS": "noise",

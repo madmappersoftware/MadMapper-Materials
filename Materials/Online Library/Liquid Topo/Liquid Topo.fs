@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Ian McEwan, adapted by Jason Beyers",
 
     "DESCRIPTION": "From http:\/\/glslsandbox.com\/e#61448.1",

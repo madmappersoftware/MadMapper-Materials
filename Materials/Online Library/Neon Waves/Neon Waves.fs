@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Nicholas2, adapted by Jason Beyers",
 
     "DESCRIPTION": "From https://www.shadertoy.com/view/wd3SDH and http:\/\/glslsandbox.com\/e#65252.0",

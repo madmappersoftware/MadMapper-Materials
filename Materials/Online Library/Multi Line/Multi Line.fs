@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Matt Beghin",
     "CATEGORIES": ["Graphic"],
     "DESCRIPTION": "Horizontal effect combining two animation patterns that can be divided vertically with an offset. Perfect for controlling textured lines.",

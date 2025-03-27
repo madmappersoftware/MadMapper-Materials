@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "gllama / shadertoy 4XG3WV",
     "DESCRIPTION": "4d noise for LEDs",
     "TAGS": "noise",

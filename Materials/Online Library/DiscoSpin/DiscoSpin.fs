@@ -8,6 +8,7 @@
 
 
 /*{
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "Jason Beyers",
   "DESCRIPTION": "",
   "VSN": "1.0",

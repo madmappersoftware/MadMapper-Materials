@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "shadertoy MdGGRW",
     "DESCRIPTION": "Explosion effect",
     "TAGS": "graphic",

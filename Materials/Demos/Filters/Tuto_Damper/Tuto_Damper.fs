@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Mad Team",
     "DESCRIPTION": "Damper Tutorial: apply a damper on a slider value with parametrable hardness & damping. Use damper output for an horizontal line position.",
     "TAGS": "tutorial,damper",

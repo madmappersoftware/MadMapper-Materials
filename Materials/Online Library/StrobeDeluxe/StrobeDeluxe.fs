@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Mad Team, modified by Jason Beyers",
     "DESCRIPTION": "Stroboscope - with BPM sync and cut threshold",
     "VSN": "1.0",

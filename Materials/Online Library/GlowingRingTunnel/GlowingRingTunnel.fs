@@ -3,6 +3,7 @@
   "CATEGORIES" : [
     "GLSLSandbox"
   ],
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "http:\/\/glslsandbox.com\/e#51492.0, adapted by Jason Beyers",
   "DESCRIPTION" : "Ring tunnel.  From http:\/\/glslsandbox.com\/e#51492.0",
   "VSN": "1.0",

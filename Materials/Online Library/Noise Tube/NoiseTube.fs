@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Matt Beghin",
     "DESCRIPTION": "Chosen noise passing through optional two other chosen noises.",
     "TAGS": "noise",

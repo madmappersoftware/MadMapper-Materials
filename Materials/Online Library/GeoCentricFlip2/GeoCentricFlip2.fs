@@ -1,5 +1,6 @@
 
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Jason Beyers",
     "DESCRIPTION": "Converted from ISF",
     "DESCRIPTION" : "From http:\/\/glslsandbox.com\/e#51881.0",

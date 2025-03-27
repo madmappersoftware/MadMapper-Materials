@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Alex Christoffer Rasmussen",
     "DESCRIPTION": "Leukbaars https://www.shadertoy.com/view/lldGzr",
     "TAGS": "Pixel",

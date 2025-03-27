@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture",
     "DESCRIPTION": "Line Repeat - animated with a noise.",
     "VSN": "1.0",

@@ -3,6 +3,7 @@
   "CATEGORIES" : [
     "GLSLSandbox"
   ],
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "reza, adapted by Jason Beyers",
   "DESCRIPTION" : "Converted from https:\/\/www.shadertoy.com\/view\/MscGWN by reza",
   "VSN": "1.0",

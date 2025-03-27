@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "shadertoy XstyD8 + frz",
     "DESCRIPTION": "Sphere Lit, ambiant occlusion style",
     "TAGS": "AO",

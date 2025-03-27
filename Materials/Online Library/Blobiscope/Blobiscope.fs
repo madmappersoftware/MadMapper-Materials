@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "chau_mu, adapted by Jason Beyers",
 
     "DESCRIPTION": "Blobiscope generator. From https://www.shadertoy.com/view/MsyyDy",

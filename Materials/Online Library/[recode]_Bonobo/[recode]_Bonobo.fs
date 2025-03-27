@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nFranz",
     "DESCRIPTION": "Bonobo - Linked / 2019",
     "TAGS": "album cover",

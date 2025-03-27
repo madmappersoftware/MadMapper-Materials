@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "jeyko",
     "DESCRIPTION": "Liquid Like noise",
     "TAGS": "noise",

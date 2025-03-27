@@ -1,4 +1,5 @@
 /*{
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "by thedantheman",
   "DESCRIPTION": "https://www.interactiveshaderformat.com/sketches/86",
   "CATEGORIES": [

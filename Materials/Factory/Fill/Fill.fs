@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Mad Teamm",
     "CATEGORIES": [ "Graphic, Tool" ],
     "DESCRIPTION": "Fills part of the media with manual controls & auto",

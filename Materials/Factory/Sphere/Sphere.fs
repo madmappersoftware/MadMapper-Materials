@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "MadTeam",
     "DESCRIPTION": "Sphere shading and repetitions",
     "TAGS": "graphic",

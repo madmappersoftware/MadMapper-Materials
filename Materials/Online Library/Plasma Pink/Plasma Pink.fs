@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "trinketMage",
     "DESCRIPTION": "Plasma / Shadertoy tdG3Rd",
     "TAGS": "plasma",

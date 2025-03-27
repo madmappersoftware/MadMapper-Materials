@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "tdhooper. Adapted by Jason Beyers.",
     "DESCRIPTION": "Rotating torus. From https://www.shadertoy.com/view/wsfGDS",
     "VSN": "1.0",

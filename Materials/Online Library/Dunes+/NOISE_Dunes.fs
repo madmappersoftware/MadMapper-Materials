@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Mad Team modified by ProjectileObjects",
     "DESCRIPTION": "Dunes plus rotation, mirror effects, and Kaleidoscope options",
     "VSN": "1.7",

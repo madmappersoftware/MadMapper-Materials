@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nFranz",
     "DESCRIPTION": "Inspired by Andy Smith - Ladders, Rocks & Lightning Swords / 2012",
     "TAGS": "album cover",

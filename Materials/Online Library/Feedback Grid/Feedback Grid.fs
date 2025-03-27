@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "frz / 1024 architecture",
     "DESCRIPTION": "Shows how to use Last Frame within a material\nRequires MM v5.1 minimum",
     "TAGS": "template",

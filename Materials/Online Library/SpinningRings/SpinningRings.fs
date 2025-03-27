@@ -1,4 +1,5 @@
  /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Jason Beyers",
     "DESCRIPTION": "Converted from ISF",
     "TAGS": "converted_from_isf",

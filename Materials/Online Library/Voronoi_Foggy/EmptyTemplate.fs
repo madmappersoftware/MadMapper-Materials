@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Adapted from jasondecode\nShadertoy XlXBWj",
     "DESCRIPTION": "voronoise",
     "TAGS": "noise",

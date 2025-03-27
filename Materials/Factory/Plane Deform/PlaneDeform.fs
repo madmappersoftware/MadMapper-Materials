@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Simon Geilfus",
     "DESCRIPTION": "Plane Deform.",
     "VSN": "1.0",

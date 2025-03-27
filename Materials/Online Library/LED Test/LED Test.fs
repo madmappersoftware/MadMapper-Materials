@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Simon Holden",
     "DESCRIPTION": "Test modes for LED configuration",
     "TAGS": "utility,color,gradient",

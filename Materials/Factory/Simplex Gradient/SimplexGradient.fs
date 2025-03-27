@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Simon Geilfus",
     "DESCRIPTION": "Simplex Gradient.",
     "VSN": "1.0",

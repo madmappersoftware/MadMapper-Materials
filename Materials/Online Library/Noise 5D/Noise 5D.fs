@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "afl_ext",
     "DESCRIPTION": "5D Noise",
     "TAGS": "noise",

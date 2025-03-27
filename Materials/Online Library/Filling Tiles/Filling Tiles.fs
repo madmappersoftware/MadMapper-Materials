@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Hanley, adapted by Jason Beyers",
 
     "DESCRIPTION": "From https://www.shadertoy.com/view/Xd3SW8",

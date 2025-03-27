@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Henry",
     "DESCRIPTION": "Renders the 7 different cosine colour palettes created by IQ and described here: https://iquilezles.org/articles/palettes/. Intended for use in pixelmapping or as an input to filters.",
     "TAGS": "color,pixelmap",

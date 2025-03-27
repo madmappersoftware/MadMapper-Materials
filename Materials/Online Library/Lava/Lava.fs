@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "shadertoy lslXRS",
     "DESCRIPTION": "Lava pond",
     "TAGS": "texture",

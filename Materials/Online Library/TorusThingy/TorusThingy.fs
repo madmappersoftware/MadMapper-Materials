@@ -4,6 +4,7 @@
     "Automatically Converted",
     "GLSLSandbox"
   ],
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "Original by balkhan, adapted by Jason Beyers",
   "VSN": "1.0",
     "INPUTS": [

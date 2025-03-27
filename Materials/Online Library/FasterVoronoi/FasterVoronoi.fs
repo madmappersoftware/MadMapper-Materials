@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Tater",
     "DESCRIPTION": "A faster squarish Voronoi noise",
     "TAGS": "noise",

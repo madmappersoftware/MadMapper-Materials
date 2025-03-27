@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Plento, adapted by Jason Beyers",
 
     "DESCRIPTION": "*Looks better in textured mode*. From https://www.shadertoy.com/view/wtyyWD by Plento.  Experiment with triplanar mapping and raymarching.",

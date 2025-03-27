@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "jeyko / shadertoy wdVBDG",
     "DESCRIPTION": "graphical beauty",
     "TAGS": "graphic",

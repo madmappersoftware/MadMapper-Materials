@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nadapted from Shadertoy MtBSWy\noriginal by schwenk",
     "DESCRIPTION": "LED gradient rendering",
     "TAGS": "graphic",

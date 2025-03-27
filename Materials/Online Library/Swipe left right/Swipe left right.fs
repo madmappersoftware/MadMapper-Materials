@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Tim Brassey edit from Fill by Mad Team",
     "CATEGORIES": [ "Graphic, Tool" ],
     "DESCRIPTION": "Swipes a colour left to right, for use with an LED string",

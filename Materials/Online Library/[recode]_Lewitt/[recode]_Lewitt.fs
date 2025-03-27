@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nFranz",
     "DESCRIPTION": "Inspired by Sol Lewitt - Wall Drawing NO 565 / 1988",
     "TAGS": "painting",

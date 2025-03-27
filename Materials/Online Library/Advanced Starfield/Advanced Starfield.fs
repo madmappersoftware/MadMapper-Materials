@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Simon Holden",
     "DESCRIPTION": "Advanced Starfield - Modified version of Warp Drive by Joe Griffith",
     "VSN": "1.0",

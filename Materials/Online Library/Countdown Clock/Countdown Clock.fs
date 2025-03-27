@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "izutionix, adapted by Jason Beyers",
 
     "DESCRIPTION": "Countdown clock to midnight, using system clock.  From https://www.shadertoy.com/view/7d3cRS",

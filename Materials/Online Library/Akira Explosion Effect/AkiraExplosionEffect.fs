@@ -1,5 +1,6 @@
 /*{
 	"DESCRIPTION": "Converted from https://www.shadertoy.com/view/XdjcWc - Akira Explosion Effect - by Koltes. With some quality reduction for smoothness (was quite slow in default configuration)",
+	    "RESOURCE_TYPE": "Material For MadMapper",
 	"CREDIT": "by you",
 	"TAGS": ["noise","texture"],
     "INPUTS": [

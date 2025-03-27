@@ -1,4 +1,5 @@
 /*{
+	    "RESOURCE_TYPE": "Material For MadMapper",
 	"CREDIT": "by mojovideotech",
   "TAGS" : [
     "2d",

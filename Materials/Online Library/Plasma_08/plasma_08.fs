@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture",
     "DESCRIPTION": "no more plasma",
     "TAGS": "plasma",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Jason Beyers, original by carter rosenberg",
     "DESCRIPTION": "Dilation effect with audio-reactivity and beat sync, which can be applied to any input.  Converted from ISF, originally by carter rosenberg",
     "TAGS": "converted_from_isf",

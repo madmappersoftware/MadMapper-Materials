@@ -1,4 +1,5 @@
 /*{
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "Mad Team",
   "DESCRIPTION": "Ball moving from left to right - distorted with a noise",
   "TAGS": "graphic",

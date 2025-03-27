@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Mad Matt",
     "DESCRIPTION": "Custom shape with a few settings + bling bling auto mode (bpm synched & audio reactive)",
     "TAGS": "graphic",

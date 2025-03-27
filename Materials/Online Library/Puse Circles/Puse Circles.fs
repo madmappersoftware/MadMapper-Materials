@@ -1,5 +1,6 @@
 /*{
     "DESCRIPTION": "Multiple animated circles with blurred edges",
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "mad-matt",
     "INPUTS": [
         { "LABEL": "Circles/Number", "NAME": "mat_nbCircles", "TYPE": "int", "DEFAULT": 25, "MIN": 1, "MAX": 100 },

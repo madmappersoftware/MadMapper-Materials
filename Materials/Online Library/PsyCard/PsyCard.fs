@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "mad-matt",
     "DESCRIPTION": "Test Card as Material",
     "TAGS": "graphics",

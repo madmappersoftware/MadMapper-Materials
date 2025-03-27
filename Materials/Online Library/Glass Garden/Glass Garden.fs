@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "TAKUSAKU, adapted by Jason Beyers",
 
     "DESCRIPTION": "Glass Garden generator. From https:\/\/www.shadertoy.com\/view\/3s2Bzy",

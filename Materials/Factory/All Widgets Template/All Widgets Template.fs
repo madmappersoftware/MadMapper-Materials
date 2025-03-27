@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Put your name here\nEnjoy shading !",
     "DESCRIPTION": "describe your material here",
     "TAGS": "template",

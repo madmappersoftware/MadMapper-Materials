@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Mad Team",
     "DESCRIPTION": "Should map wall bricks in many situations.",
     "TAGS": "graphic",

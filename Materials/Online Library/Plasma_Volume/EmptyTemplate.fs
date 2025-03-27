@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "frz / freely lifted from mu6k",
     "DESCRIPTION": "Yet another volume plasma",
     "TAGS": "plasma",

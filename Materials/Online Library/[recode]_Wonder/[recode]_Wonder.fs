@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nTristan Le Moigne",
     "DESCRIPTION": "Inspired by Stevie Wonder - Songs In The Key Of Life / 1976",
     "VSN": "1.0",

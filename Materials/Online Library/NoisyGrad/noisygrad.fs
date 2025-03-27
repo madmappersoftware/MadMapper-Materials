@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "franz",
     "DESCRIPTION": "testing something",
     "TAGS": "graphic",

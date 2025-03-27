@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Collectif Scale | Furtive Vision",
     "TAGS": "Carnaval mask scale",
     "DESCRIPTION": "Carnaval mask",

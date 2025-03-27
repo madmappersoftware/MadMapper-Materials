@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Shadertoy ll2GRt\nby noby",
     "DESCRIPTION": "Circular Noisy Oil Stain",
     "TAGS": "noise",

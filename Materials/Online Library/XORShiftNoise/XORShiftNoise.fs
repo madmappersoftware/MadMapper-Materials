@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Adapeted from Inigo Quilez",
     "DESCRIPTION": "XOR shift Noise",
     "TAGS": "noise",

@@ -5,6 +5,7 @@
 // with so FXAA surface fx applied to it, or a Denoiser (at minimum samples)
 
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "frz / 1024 architecture",
     "DESCRIPTION": "A Refracting background",
     "TAGS": "texture",

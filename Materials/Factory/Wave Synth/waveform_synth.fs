@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Mad Team",
     "DESCRIPTION": "Audio Waveform - not the real one, recomposed with 3 sinusoids from spectrum",
     "VSN": "1.0",

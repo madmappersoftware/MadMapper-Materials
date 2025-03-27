@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Anaglyph 3D Effect",
     "DESCRIPTION": "Stereoscopic red/cyan 3D visualization with rotating geometry",
     "TAGS": ["3D", "anaglyph", "generative"],

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Jason Beyers",
     "DESCRIPTION": "Filter effect, with amplitude controlled by BPM and/or audio levels.  Based on https://www.shadertoy.com/view/lsVGz3",
     "TAGS": "converted_from_isf",

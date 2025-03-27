@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "mad-matt",
     "DESCRIPTION": "Fast draft on how we could drive a 3D LED setup with a shape, controlling its position & size / splitting the Z into planes where we could map each plane of LED",
     "TAGS": "LED,3D",

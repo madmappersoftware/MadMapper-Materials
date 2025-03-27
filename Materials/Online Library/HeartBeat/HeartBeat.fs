@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "frz / 1024 architecture",
     "DESCRIPTION": "Heartbeat animation for lights",
     "TAGS": "light_rythm",

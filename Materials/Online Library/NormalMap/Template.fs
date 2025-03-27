@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "frz / 1024 architecture",
     "DESCRIPTION": "normals from a height map\non the fly using different techniques",
     "TAGS": "template",

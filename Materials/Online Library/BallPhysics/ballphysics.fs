@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\noriginal by Inigo Quilez",
     "DESCRIPTION": "Ball Physics Simulation\nrunning in a pixel shader.",
     "TAGS": "animation",

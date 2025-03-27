@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Jason Beyers",
 
     "DESCRIPTION": "Line animation with non-looping options",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Author unknown, adapted by Jason Beyers",
 
     "DESCRIPTION": "Burst shader. From http:\/\/glslsandbox.com\/e#55101.3",

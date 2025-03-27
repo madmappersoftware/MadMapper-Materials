@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Joe Griffith",
 	"DESCRIPTION": "Googly Eyes - add to a pair of Circles, and enjoy!",
     "TAGS": "Comical",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "mad-matt",
     "DESCRIPTION": "Animate Pyramides with a light",
     "TAGS": "template",

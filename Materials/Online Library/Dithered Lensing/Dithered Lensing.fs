@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Author unknown, adapted by Jason Beyers",
 
     "DESCRIPTION": "Dithered Lensing generator. From http:\/\/glslsandbox.com\/e#40770.3",

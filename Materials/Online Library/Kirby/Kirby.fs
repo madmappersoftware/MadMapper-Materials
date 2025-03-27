@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Roger Sodre, adapted by Jason Beyers",
 
     "DESCRIPTION": "Kirby05 shader from Roger Sodre",

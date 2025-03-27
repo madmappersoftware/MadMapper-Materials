@@ -3,6 +3,7 @@
   "CATEGORIES" : [
     "GLSLSandbox"
   ],
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "Adapted by Jason Beyers",
   "VSN": "1.0",
   "INPUTS": [

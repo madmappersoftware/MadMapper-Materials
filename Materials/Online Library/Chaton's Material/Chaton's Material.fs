@@ -3,6 +3,7 @@
 #endif
 
 /*{
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "Maxime Wagner",
   "DESCRIPTION": "Ligne avec défilement horizontal (dash), répétition verticale (colonnes de lignes) avec espace réglable entre colonnes et rotation. L'espacement est géré comme un offset continu.",
   "VSN": "1.6",

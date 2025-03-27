@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\noriginal by mu6k\nShadertoy 4ttGWM",
     "DESCRIPTION": "Dancing fire of hell\n original code by\nCaliCoastReplay and 301 + mu6k",
     "TAGS": "texture",

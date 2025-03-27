@@ -1,5 +1,6 @@
 
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Jason Beyers",
     "DESCRIPTION": "Lines animation patterns with a tons of controls, including line-aware color gradients",
     "VSN": "1.1",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "shadertoy",
     "DESCRIPTION": "plasmotron milky way",
     "TAGS": "plasma",

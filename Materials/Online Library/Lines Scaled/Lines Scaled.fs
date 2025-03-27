@@ -1,4 +1,5 @@
 /*{
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "Mad Team",
   "DESCRIPTION": "Derivated from Line Patterns, this one can add multiple line and as a floating point repeat.",
   "VERSION": "1.0",

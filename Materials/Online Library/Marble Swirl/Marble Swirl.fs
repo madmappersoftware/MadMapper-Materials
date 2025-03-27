@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "nabr, adapted by Jason Beyers",
 
     "DESCRIPTION": "Marble Swirl generator. From http:\/\/glslsandbox.com\/e#60061.0",

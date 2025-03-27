@@ -1,5 +1,6 @@
 /*
 {
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Derived from Nasana https://twitter.com/nasana_x on Shadertoy by Tim Brassey",
     "DESCRIPTION": "Crumpled",
     "VSN": "1.0",    

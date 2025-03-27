@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "patriciogv, adapted by Jason Beyers",
 
     "DESCRIPTION": "Blob Cluster generator. From http:\/\/glslsandbox.com\/e#50556.0",

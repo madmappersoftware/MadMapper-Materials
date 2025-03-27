@@ -7,6 +7,7 @@
 
 
 /*{
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "Joseph Fiola",
   "DESCRIPTION": "Based on 'The Power of Sin' by antonOTI - https://www.shadertoy.com/view/XdlSzB",
   "CATEGORIES": [

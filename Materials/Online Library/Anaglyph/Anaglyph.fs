@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "leon, adapted by Jason Beyers",
 
     "DESCRIPTION": "Anaglyph generator. From https:\/\/www.shadertoy.com\/view\/wdc3zX",

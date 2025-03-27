@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "ported by frZ",
     "DESCRIPTION": "Random shapes generator",
     "TAGS": "graphic",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "nabr, adapted by Jason Beyers",
 
     "DESCRIPTION": "From http:\/\/glslsandbox.com\/e#50209.1 and https://www.shadertoy.com/view/XlsBRn",

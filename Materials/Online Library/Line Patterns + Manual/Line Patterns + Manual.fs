@@ -1,4 +1,5 @@
 /*{
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "Mad Team",
   "DESCRIPTION": "Single line pattern with many controls.",
   "VERSION": "1.0",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "jeyko",
     "DESCRIPTION": "www.shadertoy.com/view/Wssczn",
     "TAGS": "graphics",

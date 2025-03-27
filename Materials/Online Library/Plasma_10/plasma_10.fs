@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture",
     "DESCRIPTION": "p.l.a.s.m.a",
     "TAGS": "plasma",

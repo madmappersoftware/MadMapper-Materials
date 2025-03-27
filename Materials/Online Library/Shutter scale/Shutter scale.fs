@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Furtive Vision, Collectif Scale",
     "DESCRIPTION": "Shutter by frame",
     "VSN": "1.0",

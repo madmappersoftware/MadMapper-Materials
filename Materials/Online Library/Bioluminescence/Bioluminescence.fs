@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Author unknown, adapted by Jason Beyers",
 
     "DESCRIPTION": "Bioluminescenct waves. From http:\/\/glslsandbox.com\/e#61578.1",

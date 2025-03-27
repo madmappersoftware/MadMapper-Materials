@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Mad Team",
     "DESCRIPTION": "Tutorial about using a Attack-Decay-Release Filter - on audio amplitude actually, but it could be done an INPUT parameter.",
     "VSN": "1.0",

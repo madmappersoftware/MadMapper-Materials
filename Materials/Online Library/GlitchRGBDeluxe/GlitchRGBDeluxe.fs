@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Jason Beyers, original by Eethe",
     "DESCRIPTION": "Glitch filter, with amplitude controlled by BPM and/or audio levels.",
     "TAGS": "converted_from_isf",

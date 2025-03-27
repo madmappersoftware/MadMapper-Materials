@@ -3,6 +3,7 @@
   "CATEGORIES" : [
     "GLSLSandbox"
   ],
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "rbentos, adapted by Jason Beyers",
   "DESCRIPTION" : "Converted from https://editor.isf.video/shaders/3976",
   "VSN": "1.0",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nFranz",
     "DESCRIPTION": "Raytraced Heightfield - Replace by your own heighfield or grayscale texture",
     "TAGS": "heightfield",

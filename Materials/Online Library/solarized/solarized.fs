@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Ethan Schoonover, adapted by Christian Prior-Mamulyan",
     "DESCRIPTION": "Input flags returning the 16 solarized colors",
     "TAGS": "color",

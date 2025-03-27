@@ -1,6 +1,7 @@
 /*
 {
 
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Derived by Tim Brassey from Shadertoy's Iteration Stripes by iq",
     "DESCRIPTION": "Iteration Stripes",
     "CATEGORIES": [

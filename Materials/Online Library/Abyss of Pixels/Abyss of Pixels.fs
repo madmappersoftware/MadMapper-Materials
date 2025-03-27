@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Kamoshika, adapted by Jason Beyers",
 
     "DESCRIPTION": "From https://www.shadertoy.com/view/7ljGWV and https://neort.io/art/c3bd7r43p9f8s59bf3f0",

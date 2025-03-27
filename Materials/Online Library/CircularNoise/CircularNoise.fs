@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "extracted from shadertoy",
     "DESCRIPTION": "Rotating noise pattern",
     "TAGS": "noise",

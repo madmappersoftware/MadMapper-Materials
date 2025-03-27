@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "original by Viktor Korsun",
     "DESCRIPTION": "yet another plasma",
     "TAGS": "plasma",

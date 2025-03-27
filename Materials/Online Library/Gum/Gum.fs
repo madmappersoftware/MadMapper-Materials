@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "CaliCoastReplay & mu6k, adapted by Jason Beyers",
 
     "DESCRIPTION": "Gum balls with camera controls. From https://www.shadertoy.com/view/Mss3WN",

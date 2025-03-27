@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Pierre Guilluy",
     "TAGS": "graphic,psychedelic,trippy",
     "INPUTS": [

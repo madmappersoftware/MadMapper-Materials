@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Dr Algo",
     "DESCRIPTION": "Comètes lumineuses multicolores avec traces, chemins variables et vitesses différentes",
     "CATEGORIES": [

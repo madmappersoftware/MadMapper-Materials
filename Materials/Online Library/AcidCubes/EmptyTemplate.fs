@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Shadertoy ttccDX\nby yozic",
     "DESCRIPTION": "acid donut",
     "TAGS": "trippy",

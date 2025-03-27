@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "voithos",
     "DESCRIPTION": "Triangular Noise, useful to raymarch a triangulated terrain. Noise Value in R, distance to edge in G",
     "TAGS": "noise",

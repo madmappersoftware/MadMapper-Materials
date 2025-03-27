@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Shadertoy Md33zB\nby zifnab",
     "DESCRIPTION": "Imagination test",
     "TAGS": "graphic",

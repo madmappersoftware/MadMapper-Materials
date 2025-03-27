@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "hexler",
     "DESCRIPTION": "Audio effect based on spectrum: https://vimeo.com/51993089.",
     "TAGS": "audio,reactive,spectrum",

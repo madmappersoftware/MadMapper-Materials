@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Joseph Fiola, converted by zerbzman",
     "DESCRIPTION": "Converted from Joseph Fiola's work which was based on shader by Shadertoy user smb02dunnal entitled \"Electro-Prim's\" - https://www.shadertoy.com/view/Mll3WS. I added speed and color controls.",
     "TAGS": "Generator",

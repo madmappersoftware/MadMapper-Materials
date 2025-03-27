@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "port of shadertoy wl2Gzc",
     "DESCRIPTION": "Sparks",
     "TAGS": "nature",

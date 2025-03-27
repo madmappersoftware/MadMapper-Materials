@@ -3,6 +3,7 @@
   "CATEGORIES" : [
     "GLSLSandbox"
   ],
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "n01se, adapted by Jason Beyers",
   "DESCRIPTION" : "Converted from https:\/\/www.shadertoy.com\/view\/ltyBz1 by n01se.  Inspired by and forked from https:\/\/www.shadertoy.com\/view\/4s3yDr",
   "VSN": "1.0",

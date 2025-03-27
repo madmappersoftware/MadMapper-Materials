@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nadpated from Shadertoy",
     "DESCRIPTION": "A procedural water surface\nwith optional desaturation",
     "TAGS": "texture",

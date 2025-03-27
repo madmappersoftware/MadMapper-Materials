@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "frz cooked it up from the net",
     "DESCRIPTION": "Noise series: 3x3 neighbor cell voronoi",
     "TAGS": "noise",

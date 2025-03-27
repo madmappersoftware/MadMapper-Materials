@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "phreax, adapted by Jason Beyers",
 
     "DESCRIPTION": "From https://www.shadertoy.com/view/dd2SRd.  Diffraction grating by Alan Zucconi: https://www.alanzucconi.com/2017/07/15/the-mathematics-of-diffraction-grating",

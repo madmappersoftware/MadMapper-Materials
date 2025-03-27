@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Robert Schütze (trirop), adapted by Jason Beyers",
 
     "DESCRIPTION": "",

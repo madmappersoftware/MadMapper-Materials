@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "shadertoy WsGcRt\nby treize",
     "DESCRIPTION": "anime style focus lines",
     "TAGS": "graphic",

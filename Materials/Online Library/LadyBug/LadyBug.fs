@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Shadertoy 3sfXWn",
     "DESCRIPTION": "Ladybug sliding effect,\nfrom Shadertoy",
     "TAGS": "graphic",

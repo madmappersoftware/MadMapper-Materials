@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Jason Beyers, originally by VIDVOX",
     "ISFVSN": "2",
     "DESCRIPTION" : "A Bad TV effect with audio reactivity, which can be applied to any input",

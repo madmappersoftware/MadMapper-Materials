@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "setchi, zerbzman",
     "DESCRIPTION": "Inpired by https://twitter.com/setchi/status/1251153387187367939.",
     "TAGS": "",

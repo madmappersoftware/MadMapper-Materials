@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Joe Griffith",
     "DESCRIPTION": "Distortion of a square, with mulitple iterations",
     "TAGS": "noise,square,curious",

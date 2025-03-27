@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "nimitz",
     "DESCRIPTION": "inferno clouds",
     "TAGS": "clouds",

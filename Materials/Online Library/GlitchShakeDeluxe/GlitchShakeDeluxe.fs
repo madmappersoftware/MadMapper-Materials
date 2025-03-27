@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Jason Beyers, original by VIDVOX",
     "DESCRIPTION": "Glitch effect with audio-reactivity and beat sync, which can be applied to any input.",
     "TAGS": "converted_from_isf",

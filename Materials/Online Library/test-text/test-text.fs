@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Shane, adapted by Jason Beyers",
 
     "DESCRIPTION": "Raymarching a textured XY plane, with options for custom texture inputs. From https://www.shadertoy.com/view/ldt3RN",

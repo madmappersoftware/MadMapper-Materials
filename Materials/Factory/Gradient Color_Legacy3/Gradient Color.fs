@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Matt Beghin",
     "DESCRIPTION": "Gradient Color effect that allows choose two to five colors and blending between, with many controls and auto-scroll.",
     "TAGS": "color,gradient",

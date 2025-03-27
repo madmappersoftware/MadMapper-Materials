@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Stephane Cuillerdier\nshadertoy ld2czw\nported by franz",
     "DESCRIPTION": "Polygonal Voronoi SDF",
     "TAGS": "polygon",

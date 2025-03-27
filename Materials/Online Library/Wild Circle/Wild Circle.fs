@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "c0de4, adapted by Jason Beyers",
 
     "DESCRIPTION": "Wild Circle shader. Fro http:\/\/glslsandbox.com\/e#40806.0",

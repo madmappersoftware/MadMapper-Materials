@@ -3,6 +3,7 @@
   "CATEGORIES" : [
     "GLSLSandbox"
   ],
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "Stefan Gustavson, adapted by Jason Beyers",
   "DESCRIPTION" : "Converted from https://github.com/ashima/webgl-noise",
   "VSN": "1.0",

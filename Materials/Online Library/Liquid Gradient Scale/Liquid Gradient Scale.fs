@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Matt Beghin, Furtive Vision, Collectif Scale",
     "DESCRIPTION": "Gradient Color with deformation",
     "TAGS": "color, gradient, liquid, Collectif Scale",

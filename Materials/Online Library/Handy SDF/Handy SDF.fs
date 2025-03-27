@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "dean_the_coder, adapted by Jason Beyers",
 
     "DESCRIPTION": "From https://www.shadertoy.com/view/csd3zX",

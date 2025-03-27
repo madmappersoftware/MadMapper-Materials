@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Jason Beyers",
 
     "DESCRIPTION": "A flexible texture transformer.  Good for adding motion to static content like images.  Try using this with seamless tile images for infinite scrolls",

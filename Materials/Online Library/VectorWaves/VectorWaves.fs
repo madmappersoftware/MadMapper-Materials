@@ -3,6 +3,7 @@
   "CATEGORIES" : [
     "GLSLSandbox"
   ],
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "avin, adapted by Jason Beyers",
   "DESCRIPTION" : "Converted from https:\/\/www.shadertoy.com\/view\/WtGXRw by avin. Disable scrolling for more logical zooming.",
   "VSN": "1.1",

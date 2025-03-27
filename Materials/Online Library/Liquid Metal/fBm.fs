@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Converted by ProjectileObjects from Shadertoy by mrange",
     "DESCRIPTION": "fBm noise",
     "TAGS": "noise, metal",

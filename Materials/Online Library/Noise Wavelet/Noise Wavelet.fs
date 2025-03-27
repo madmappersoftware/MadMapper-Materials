@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Big Wings",
     "DESCRIPTION": "Wavelet Noise",
     "TAGS": "noise",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Matt Beghin",
     "DESCRIPTION": "Freely combine 1-3 different noises with fine control",
     "TAGS": "noise",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "frz cooked it up from the net",
     "DESCRIPTION": "Noise series: 4x4 voronoi kernel",
     "TAGS": "noise",

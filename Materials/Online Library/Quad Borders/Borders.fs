@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Matt Beghin",
     "DESCRIPTION": "Quad borders draft, to be improved. Anyone ?",
     "TAGS": "graphic,border,quad",

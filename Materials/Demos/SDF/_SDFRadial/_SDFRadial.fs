@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "mm team",
     "CATEGORIES": [
         "Image Control"

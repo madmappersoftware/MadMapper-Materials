@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "shadertoy lsKXWc by glkt",
     "DESCRIPTION": "Noise metallic finish",
     "TAGS": "noise",

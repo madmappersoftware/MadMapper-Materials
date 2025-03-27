@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "adapted from shadertoy tsGSzc by avin, ported by frz / 1024 ",
     "DESCRIPTION": "Ribonnish 70s thingie",
     "TAGS": "animation",

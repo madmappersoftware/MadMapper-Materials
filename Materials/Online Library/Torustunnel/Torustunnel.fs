@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Shadertoy tlsGz2\nby Caneta",
     "DESCRIPTION": "abstract tunnel",
     "TAGS": "tunnel",

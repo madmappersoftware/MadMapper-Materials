@@ -1,5 +1,6 @@
 /*
 {
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Modified by Tim Brassey from https://www.shadertoy.com/view/mdtXzH by Zygal and others",
     "DESCRIPTION": "Lava Blobs",    
 	"CATEGORIES": ["Automatically Converted",],

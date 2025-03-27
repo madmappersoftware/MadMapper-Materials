@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "anastadunbar, adapted by Jason Beyers",
 
     "DESCRIPTION": "From https://www.shadertoy.com/view/MscSW8 and http://bit.ly/1RrlZYP",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "frz / test mat",
     "DESCRIPTION": "moving bzh flag",
     "TAGS": "test",

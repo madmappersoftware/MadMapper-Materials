@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Joe Griffith",
 	"DESCRIPTION": "Digital Follow Spot",
     "TAGS": "Theatrical",

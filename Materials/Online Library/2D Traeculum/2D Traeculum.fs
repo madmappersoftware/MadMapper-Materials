@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "FabriceNeyret2, adapted by Jason Beyers",
 
     "DESCRIPTION": "Traeculum generator.  From https://www.shadertoy.com/view/4dKSDV",

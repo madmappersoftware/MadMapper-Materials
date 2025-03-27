@@ -3,6 +3,7 @@
   "CATEGORIES" : [
     "GLSLSandbox"
   ],
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "mojovideotech, adapted by Jason Beyers",
   "DESCRIPTION" : "Converted from http:\/\/glslsandbox.com\/e#39961.5",
   "VSN": "1.0",
