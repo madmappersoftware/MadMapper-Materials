@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Collectif Scale | Furtive Vision",
     "TAGS": "Carnaval sequencer",
     "DESCRIPTION": "Sequencer, bpm sync, single step",

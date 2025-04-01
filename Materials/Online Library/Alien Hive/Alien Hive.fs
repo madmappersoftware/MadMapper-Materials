@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "mrange, adapted by Jason Beyers",
 
     "DESCRIPTION": "Alien Hive generator. From https://www.shadertoy.com/view/ttt3zX",

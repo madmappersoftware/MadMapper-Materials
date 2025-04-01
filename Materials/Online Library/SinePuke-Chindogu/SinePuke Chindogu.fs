@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nWAHa_06x36\nShadertoy 4dXXzN   Modifided by Chindogu",
     "DESCRIPTION": "Port of a shadertoy",
     "TAGS": "graphic",

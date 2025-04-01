@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "for Tij",
     "DESCRIPTION": "moving circle",
     "TAGS": "utility",

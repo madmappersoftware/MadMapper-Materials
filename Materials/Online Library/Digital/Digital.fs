@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "frz / 1024\nadapted from shadertoy lsXXzN\nby Fabrice Neyret",
     "DESCRIPTION": "Digital Counter",
     "TAGS": "graphic",

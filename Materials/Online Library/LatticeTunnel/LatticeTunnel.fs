@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Shadertoy wtlGRX\nby Cewein",
     "DESCRIPTION": "SDF tunnel",
     "TAGS": "tunnel",

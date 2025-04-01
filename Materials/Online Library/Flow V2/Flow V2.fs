@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nadpated from KodeLife, adapted by Jason Beyers",
 
     "DESCRIPTION": "",

@@ -1,5 +1,6 @@
 /*{
     "DESCRIPTION": "From https://www.shadertoy.com/view/XdVXR3",
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "FabriceNeyret2, adapted by Jason Beyers",
     "TAGS": "converted_from_isf",
     "VSN": "1.1",

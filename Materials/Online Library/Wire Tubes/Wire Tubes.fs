@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "noby, adapted by Jason Beyers",
 
     "DESCRIPTION": "From http:\/\/glslsandbox.com\/e#47482.0",

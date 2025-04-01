@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Shane, adapted by Jason Beyers",
 
     "DESCRIPTION": "Bumped sinusoidal warp with option for texture input. From https:\/\/www.shadertoy.com\/view\/4l2XWK",

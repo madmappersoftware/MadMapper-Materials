@@ -3,6 +3,7 @@
   "CATEGORIES" : [
     "GLSLSandbox"
   ],
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "Adapted by Jason Beyers, original by mojovideotech",
 
   "DESCRIPTION": "shadertoy.com\/4dB3DV by steverock.  Texture-less Perlin shader code : github.com/ashima/webgl-noise",

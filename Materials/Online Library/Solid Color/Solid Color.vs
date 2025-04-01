@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Matt Beghin",
     "CATEGORIES": [ "Color" ],
     "DESCRIPTION": "Solid Color working in RGB or HSV mode.",

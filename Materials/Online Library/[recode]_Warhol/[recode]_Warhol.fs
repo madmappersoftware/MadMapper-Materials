@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nFranz",
     "DESCRIPTION": "Inspired by Andy Warhol - Velvet Underground / 1967",
     "TAGS": "album cover",

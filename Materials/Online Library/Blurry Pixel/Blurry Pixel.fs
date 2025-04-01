@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Jean Schneider /1024",
     "DESCRIPTION": "Cellular noise.",
     "VSN": "1.0",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nadapted from Inigo Iquilez\nrequires a fast Gpu",
     "TAGS": "SDF",
     "INPUTS": [ 

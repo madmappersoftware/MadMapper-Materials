@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "frz/ 1024 architecture",
     "DESCRIPTION": "Strobes for 1 frame every n frames",
     "TAGS": "utility",

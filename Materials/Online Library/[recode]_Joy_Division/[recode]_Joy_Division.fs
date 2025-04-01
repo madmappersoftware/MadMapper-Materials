@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nFranz\nBased on Shadertoy 4dfSDj",
     "DESCRIPTION": "Inspired by Joy Division - Unknown Pleasures / 1979",
     "TAGS": "album cover",

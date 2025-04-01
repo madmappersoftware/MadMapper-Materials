@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "HeGu",
     "DESCRIPTION": "shadertoy 4dl3R4",
     "TAGS": "template",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "github.com/keijiro",
     "DESCRIPTION": "TestCard Material",
     "TAGS": "utility",

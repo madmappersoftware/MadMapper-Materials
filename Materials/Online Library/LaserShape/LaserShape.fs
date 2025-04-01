@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Tristan Le Moigne	",
     "DESCRIPTION": "Test Laser Material",
     "TAGS": "template",

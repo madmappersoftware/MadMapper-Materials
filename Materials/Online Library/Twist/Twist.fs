@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Joseph Fiola, Matthew DiVito, Shadertoy user fb39ca4. Converted by zerbzman",
     "DESCRIPTION": "Converted and added speed and color controls.",
     "TAGS": "Generator",

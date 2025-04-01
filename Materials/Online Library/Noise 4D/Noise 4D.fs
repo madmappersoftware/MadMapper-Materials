@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Ashima",
     "DESCRIPTION": "4D Noise",
     "TAGS": "noise",

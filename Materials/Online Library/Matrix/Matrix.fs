@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "WillKirkbyl",
     "DESCRIPTION": "Welcome to the Matrix",
     "TAGS": "eyecandy",

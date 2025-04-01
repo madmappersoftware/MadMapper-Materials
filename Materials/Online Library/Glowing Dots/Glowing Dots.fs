@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "TinyTexel, adapted by Jason Beyers",
 
     "DESCRIPTION": "Glowing Dots generator. From https:\/\/www.shadertoy.com\/view\/ll2XDy",

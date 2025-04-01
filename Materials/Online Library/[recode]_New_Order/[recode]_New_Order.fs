@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nFranz",
     "DESCRIPTION": "Inspired by New Order - Blue Monday, Brotherhood Album / 1986",
     "TAGS": "album cover",

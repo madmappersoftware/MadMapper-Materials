@@ -1,10 +1,12 @@
 /*{
     "DESCRIPTION": "https://www.shadertoy.com/view/4dVGzd",
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "by you",
     "VSN": "1.0",
     "CATEGORIES": [
         "Your category"
     ],
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Adapted by Jason Beyers",
     "INPUTS": [
 

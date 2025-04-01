@@ -3,6 +3,7 @@
   "CATEGORIES" : [
     "GLSLSandbox"
   ],
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "Inigo Quilez, adapted by Jason Beyers",
   "VSN": "1.1",
   "INPUTS" : [

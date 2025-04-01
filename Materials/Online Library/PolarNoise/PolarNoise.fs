@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "shadertoy lscyD7",
     "DESCRIPTION": "Polar coordinate Noise",
     "TAGS": "Noise",

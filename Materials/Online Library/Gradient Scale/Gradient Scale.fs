@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Matt Beghin, Furtive Vision, Collectif Scale",
     "DESCRIPTION": "8 colors, speed sequenced",
     "TAGS": "color,gradient,Collectif Scale",

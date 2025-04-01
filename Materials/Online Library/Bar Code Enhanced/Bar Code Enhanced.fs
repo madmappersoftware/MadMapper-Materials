@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Simon Geilfus modified Simon Holden",
     "DESCRIPTION": "Bar Coder with Linear, Radial, or Polar Pattern",
     "TAGS": "graphic",

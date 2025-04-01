@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "frz / 1024 architecture",
     "DESCRIPTION": "Pan Tilt around a spherical map.\nReplace the included free texture by your own.",
     "TAGS": "utility",

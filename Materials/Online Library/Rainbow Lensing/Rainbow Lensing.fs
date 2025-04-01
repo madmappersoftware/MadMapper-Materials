@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "totetmatt, adapted by Jason Beyers",
 
     "DESCRIPTION": "Rainbow Lensing generator. From https://www.shadertoy.com/view/WsGBRd",

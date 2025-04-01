@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "nimitz shadertoy lllGRr\njessifin\nfranz / 1024 architecture",
     "DESCRIPTION": "Sandy-polygonal terrain using Signed Distance Fields",
     "TAGS": "SDF",

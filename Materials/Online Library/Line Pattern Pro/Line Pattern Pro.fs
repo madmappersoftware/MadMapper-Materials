@@ -1,4 +1,5 @@
 /*{
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "Jiagual / Mad Team",
   "DESCRIPTION": "Advanced lines with distortion and zebra effect",
   "VSN": "1.0",

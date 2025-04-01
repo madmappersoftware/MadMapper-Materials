@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Shadertoy XsVGz3 by candycat\nported by frz",
     "DESCRIPTION": "Density raymarched volume",
     "TAGS": "physical",

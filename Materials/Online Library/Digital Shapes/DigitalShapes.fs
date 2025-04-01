@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Mad Team",
     "DESCRIPTION": "Shape animations, repeated and offsetted, very usefull for mapping.",
     "VSN": "1.0",

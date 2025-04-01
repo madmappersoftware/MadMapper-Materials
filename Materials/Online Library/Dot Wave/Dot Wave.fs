@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Norihiro Narayama, adapted by Jason Beyers",
 
     "DESCRIPTION": "From https://neort.io/art/bradq9s3p9f04urh8ov0?index=656&origin=tag",

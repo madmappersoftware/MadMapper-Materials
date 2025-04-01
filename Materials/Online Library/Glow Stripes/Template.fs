@@ -1,6 +1,7 @@
 /*{
     "NAME": "Glow Stripes",
     "AUTHOR": "Pi & Mash",
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Pi & Mash",
     "DESCRIPTION": "A combination of MadTeam's Dunes and base template with extra whistles and bells",
     "TAGS": "graphic",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Jason Beyers, original by dyvoid",
     "DESCRIPTION": "Glitch effect, with amplitude controlled by BPM and/or audio levels.",
     "TAGS": "converted_from_isf",

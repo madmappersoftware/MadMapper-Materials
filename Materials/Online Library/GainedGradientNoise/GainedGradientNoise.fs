@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "shadertoy 3sXcRj by raabix",
     "DESCRIPTION": "noisy rocky surface",
     "TAGS": "noise",

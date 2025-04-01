@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "tdhooper, adapted by Jason Beyers",
 
     "DESCRIPTION": "Bubble Rings generator. From https:\/\/www.shadertoy.com\/view\/WdB3Dw",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Matt Beghin",
 	"DESCRIPTION": "Draft of a shape border effect. To be continued",
     "TAGS": ["Graphic","Borders","Quad","Circle","Triangle"],

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Jason Beyers",
 
     "DESCRIPTION": "A flexible video wall system for 1-4 input textures, plus a tile overlay and mask.  With animated tile shuffle, tile size, tile opacity, scroll, wobble, scale, and rotation.  With FX for each texture, handy when the textures are images.  Enjoy!",

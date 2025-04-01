@@ -5,6 +5,7 @@
 
 
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Joseph Fiola",
 	"DESCRIPTION": "",
 	"TAGS": [ "Generator","waves", "random" ],

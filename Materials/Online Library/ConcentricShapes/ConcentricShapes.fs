@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Henry Florence",
     "DESCRIPTION": "Creates moving concentric bands of alternating colours. Mainly intended for pixel mapping dmx fixtures. Largely created with chatGPT",
     "TAGS": "pixelmap,color,gradient",

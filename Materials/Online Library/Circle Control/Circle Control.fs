@@ -1,4 +1,5 @@
 /*{
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "Matt Beghin",
   "TAGS": "graphic,circle",
   "DESCRIPTION": "Control a circle with many options: translate, scale, luma can be adjusted and controlled with animations or noise etc.",

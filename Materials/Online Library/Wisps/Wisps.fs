@@ -7,6 +7,7 @@
 
 
 /*{
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "Joseph Fiola",
   "DESCRIPTION": "Based on Week 29 Saturday Shader + 'WAVES' Shadertoy by bonniem - https://www.shadertoy.com/view/4dsGzH",
   "TAGS": [ "Generator"],

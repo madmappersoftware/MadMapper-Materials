@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "arma, adapted by Jason Beyers",
 
     "DESCRIPTION": "From /www.shadertoy.com/view/ss3fDf",

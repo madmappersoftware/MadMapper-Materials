@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "mad-matt",
     "DESCRIPTION": "Rythmic Patterns for chases",
     "VSN": "1.0",

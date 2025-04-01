@@ -1,4 +1,5 @@
 /*{
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "Mad Team, Collectif Scale, Furtive Vision",
   "DESCRIPTION": "V1.3, repeat < 1",
   "VSN": "1.3",

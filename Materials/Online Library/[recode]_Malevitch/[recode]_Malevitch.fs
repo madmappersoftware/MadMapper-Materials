@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "1024 architecture\nFranz",
     "DESCRIPTION": "Inspired by Kasimir Malevitch - Carre noir sur fond blanc / 1915",
     "TAGS": "painting",

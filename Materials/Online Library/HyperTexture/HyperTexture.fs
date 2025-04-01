@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Shadertoy MlB3Wt\nby FabriceNeyret2",
     "DESCRIPTION": "warning: SLOW",
     "TAGS": "graphic",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "gleurop, adapted by Jason Beyers",
 
     "DESCRIPTION": "Alien Skies generator. From https://www.shadertoy.com/view/Msl3Rs",

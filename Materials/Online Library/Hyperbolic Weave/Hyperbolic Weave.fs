@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Shane, adapted by Jason Beyers",
 
     "DESCRIPTION": "Hyperbolic Poincare double sided Truchet weave, from https://www.shadertoy.com/view/tljyRR",

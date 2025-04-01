@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "shadertoy 4lBcRm",
     "DESCRIPTION": "Rayleigh light scattering",
     "TAGS": "simulation",

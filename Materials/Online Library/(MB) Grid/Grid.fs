@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Matt Beghin",
     "CATEGORIES": [ "Graphic" ],
     "DESCRIPTION": "Draw a grid with customizable resolution, with auto-move / scale & rotate.",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "shadertoy drift\nport by mad-matt",
     "DESCRIPTION": "2D Clouds - https://www.shadertoy.com/view/4tdSWr",
     "TAGS": "Noise,graphic",

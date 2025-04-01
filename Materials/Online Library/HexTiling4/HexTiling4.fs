@@ -1,5 +1,6 @@
 /*{
     "DESCRIPTION": "https://www.shadertoy.com/view/XdKXz3",
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Jason Beyers",
     "CATEGORIES": [
         "Your category"

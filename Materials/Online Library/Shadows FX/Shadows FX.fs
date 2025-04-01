@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "humanaute",
     "DESCRIPTION": "Add texture to control Depth Map And shadows",
     "TAGS": "depth map Fx",

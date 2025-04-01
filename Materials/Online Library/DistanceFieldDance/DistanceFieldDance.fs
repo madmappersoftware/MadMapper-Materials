@@ -3,6 +3,7 @@
   "CATEGORIES" : [
     "Shadertoy"
   ],
+      "RESOURCE_TYPE": "Material For MadMapper",
   "CREDIT": "Sleng; adapted by Jason Beyers",
   "DESCRIPTION" : "Adapted from https:\/\/www.shadertoy.com\/view\/XttBRX by Sleng.  Variation of distance field explanation from https:\/\/thebookofshaders.com\/07\/?lan=ru.  NOTE: avoid animating rotation and position at the same time.",
   "VSN": "1.0",

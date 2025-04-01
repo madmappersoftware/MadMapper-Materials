@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "gopher, adapted by Jason Beyers",
 
     "DESCRIPTION": "Electron generator. From https:\/\/www.shadertoy.com\/view\/MslGRn",

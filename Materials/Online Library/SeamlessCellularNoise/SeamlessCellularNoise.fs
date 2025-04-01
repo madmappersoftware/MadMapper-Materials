@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "frz / lifted from shadertoy XdyBRc",
     "DESCRIPTION": "describe your material here",
     "TAGS": "noise",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "frz / 1024",
     "DESCRIPTION": "Yet another noise type",
     "TAGS": "noise",

@@ -1,4 +1,5 @@
 /*{
+        "RESOURCE_TYPE": "Material For MadMapper",
     "CREDIT": "Dave Hoskins, adapted by Jason Beyers",
 
     "DESCRIPTION": "Warp Speed generator. From https:\/\/www.shadertoy.com\/view\/Msl3WH",
